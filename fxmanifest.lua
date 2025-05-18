@@ -21,7 +21,6 @@ files {
     'html/ui.html',
     'html/ui.css',
     'html/ui.js',
-	'html/fonts/*.woff2',
 	'html/icons/*.svg',
 }
 

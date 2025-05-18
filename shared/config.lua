@@ -152,7 +152,7 @@ Config.TourLocations = {
 	},
 	["lsia-myfly-bottom"] = {
 	coords = vector4(-1074.75, -2576.74, 13.30, 247.77),
-	LabelDistrict = "ILSIA",
+	LabelDistrict = "LSIA",
 	LabelStreet = "New Empire Way",
 	LabelDetail = "My Fly Gate, Bottom"
 	},
@@ -558,7 +558,7 @@ Config.TourLocations = {
 	LabelStreet = "Orchardville Ave",
 	LabelDetail = "LS Car Meet"
 	},
-	["cypress-Zalinsky"] = {
+	["cypress-zalinsky"] = {
 	coords = vector4(850.89, -2444.57, 27.23, 164.58),
 	LabelDistrict = "Cypress Flats",
 	LabelStreet = "Hanger Way",
@@ -990,7 +990,7 @@ Config.TourLocations = {
 	LabelStreet = "Little Bighorn Ave",
 	LabelDetail = "Bilingsgate Motel"
 	},
-	["rancho.lspdimpound"] = {
+	["rancho-lspdimpound"] = {
 	coords = vector4(425.20, -1624.61, 28.80, 298.86),
 	LabelDistrict = "Rancho",
 	LabelStreet = "Innocence Blvd",
@@ -1592,6 +1592,893 @@ Config.TourLocations = {
 	LabelDistrict = "Innenstadt",
 	LabelStreet = "San Andreas Ave",
 	LabelDetail = "Daily Globe International"
+	},
+	
+-- == LA PUERTA == --
+	
+	["puerta-fridgit"] = {
+	coords = vector4(-598.46, -1806.48, 22.81, 165.06),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Mutiny Rd",
+	LabelDetail = "FRIDGIT Warehouse"
+	},
+	["puerta-containeryard"] = {
+	coords = vector4(-669.28, -1745.53, 24.68, 102.14),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "La Puerta Fwy",
+	LabelDetail = "Containeryard"
+	},
+	["puerta-warehouse1"] = {
+	coords = vector4(-539.50, -1768.60, 21.01, 320.95),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "South Arsenal St",
+	LabelDetail = "Warehouse 1"
+	},
+	["puerta-rogersloading"] = {
+	coords = vector4(-612.85, -1603.51, 26.27, 41.92),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Mutiny Rd",
+	LabelDetail = "Rogers Scrapyard, Loading Area"
+	},
+	["puerta-rogersgate"] = {
+	coords = vector4(-414.01, -1723.18, 18.81, 289.55),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Alta St",
+	LabelDetail = "Rogers Scrapyard, Main Gate"
+	},
+	["puerta-recycling"] = {
+	coords = vector4(-311.02, -1514.23, 27.44, 146.83),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Alta St",
+	LabelDetail = "South LS Recycling"
+	},
+	["puerta-heliport"] = {
+	coords = vector4(-660.26, -1382.80, 10.15, 268.92),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Dutch London St",
+	LabelDetail = "Heliport"
+	},
+	["puerta-sho"] = {
+	coords = vector4(-658.15, -1248.77, 10.13, 119.36),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "South Rockford Dr",
+	LabelDetail = "S.Ho Noodle House"
+	},
+	["puerta-delsol"] = {
+	coords = vector4(-816.65, -1333.52, 4.67, 354.74),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Tackle St",
+	LabelDetail = "Puerta del Sol Marina"
+	},
+	["puerta-laspada1"] = {
+	coords = vector4(-1043.82, -1350.89, 5.02, 19.08),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Goma St",
+	LabelDetail = "La Spada, Back"
+	},
+	["puerta-laspada2"] = {
+	coords = vector4(-1051.48, -1390.35, 4.94, 160.22),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Goma St",
+	LabelDetail = "La Spada Restaurant"
+	},
+	["puerta-koi"] = {
+	coords = vector4(-1030.40, -1461.24, 4.57, 22.11),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Tug St",
+	LabelDetail = "KOI Restaurant"
+	},
+	["puerta-gomast"] = {
+	coords = vector4(-986.68, -1438.66, 4.70, 111.22),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Goma St",
+	LabelDetail = "Apartments"
+	},
+	["puerta-pool"] = {
+	coords = vector4(-1034.91, -1529.54, 4.61, 127.38),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Pool Club"
+	},
+	["puerta-rubst"] = {
+	coords = vector4(-939.42, -1524.92, 4.70, 107.61),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Rub St",
+	LabelDetail = "Apartments"
+	},
+	
+-- == VESPUCCI ( + BEACH & CANALS ) == --	
+
+	["vespucci-tower"] = {
+	coords = vector4(-1173.51, -1766.05, 3.45, 217.40),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Lifeguard Tower"
+	},
+	["vespucci-magellanave1"] = {
+	coords = vector4(-1075.68, -1584.20, 3.86, 133.37),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "No. 1"
+	},
+	["vespucci-gym"] = {
+	coords = vector4(-1149.95, -1597.10, 3.90, 29.23),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Melanoma St",
+	LabelDetail = "Pink Palms / Gym"
+	},
+	["vespucci-magellanave2"] = {
+	coords = vector4(-1133.72, -1527.25, 3.88, 299.09),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "No. 2"
+	},
+	["vespucci-musclepeach"] = {
+	coords = vector4(-1199.36, -1537.48, 3.89, 314.28),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Goma St",
+	LabelDetail = "Muscle Peach / Gym"
+	},
+	["vespucci-aldentes"] = {
+	coords = vector4(-1174.28, -1407.98, 3.95, 220.68),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Aguja St",
+	LabelDetail = "Al Dente's Restaurant"
+	},
+	["vespucci-sharkies"] = {
+	coords = vector4(-1288.76, -1389.80, 4.00, 203.44),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Sharkies Bites Pizza"
+	},
+	["vespucci-steamboat"] = {
+	coords = vector4(-1212.73, -1382.68, 3.53, 69.95),
+	LabelDistrict = "Vespucci",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "Steamboat Beers"
+	},
+	["vespucci-magellanave3"] = {
+	coords = vector4(-1249.25, -1294.73, 3.45, 109.48),
+	LabelDistrict = "Vespucci",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "No. 3"
+	},
+	["vespucci-moviemasks"] = {
+	coords = vector4(-1321.88, -1285.63, 4.51, 199.86),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Vitus St",
+	LabelDetail = "Movie Masks Shop"
+	},
+	["vespucci-nutbuster"] = {
+	coords = vector4(-1275.81, -1191.06, 4.47, 25.87),
+	LabelDistrict = "Vespucci",
+	LabelStreet = "Cortes St",
+	LabelDetail = "Nut Buster Restaurant"
+	},
+	["vespucci-pizzacoven"] = {
+	coords = vector4(-1339.03, -1211.74, 4.29, 3.45),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Cortes St",
+	LabelDetail = "The Pizza Coven"
+	},
+	["vespucci-alphabetz"] = {
+	coords = vector4(-1272.97, -1156.51, 5.78, 120.86),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Cortes St",
+	LabelDetail = "Alphabetz Shoe Store"
+	},
+	["vespucci-oldiegoldie"] = {
+	coords = vector4(-1296.88, -1103.24, 6.46, 117.44),
+	LabelDistrict = "Vespucci",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "Oldie But Goldie"
+	},
+	["vespucci-venetian"] = {
+	coords = vector4(-1331.71, -1094.19, 6.46, 208.39),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Conquistador St",
+	LabelDetail = "Venetian"
+	},
+	["vespucci-beachhotel"] = {
+	coords = vector4(-1382.14, -974.22, 8.46, 305.50),
+	LabelDistrict = "Vespucci Beach",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "The Vespucci Beach Hotel"
+	},
+	["vespucci-trinculo"] = {
+	coords = vector4(-1230.35, -1079.53, 7.83, 108.74),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Trinculo Clothes"
+	},
+	["vespucci-coolbeans"] = {
+	coords = vector4(-1211.61, -1138.74, 7.14, 103.56),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Cool Beans Coffe"
+	},
+	["vespucci-potheads"] = {
+	coords = vector4(-1220.79, -1187.21, 7.22, 277.08),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Pot-Heads Seafood"
+	},
+	["vespucci-tacolibre"] = {
+	coords = vector4(-1177.27, -1270.62, 5.59, 114.88),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Taco Libre Restaurant"
+	},
+	["vespucci-marlins"] = {
+	coords = vector4(-1134.13, -1374.82, 4.61, 107.18),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Marlins Cafe"
+	},
+	["vespucci-coconut"] = {
+	coords = vector4(-1114.57, -1441.09, 4.63, 307.15),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Coconut Cafe"
+	},
+	["vespucci-puertodelsoltowers"] = {
+	coords = vector4(-974.77, -1253.79, 5.07, 28.75),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Puerto Del Sol Towers"
+	},
+	["viceroy"] = {
+	coords = vector4(-823.93, -1221.35, 6.88, 41.98),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "The Viceroy Hotel"
+	},
+	["vespucci-wigwam"] = {
+	coords = vector4(-852.36, -1148.19, 5.97, 212.16),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Wigwam"
+	},
+	["vespucci-backside"] = {
+	coords = vector4(-915.76, -1184.57, 4.60, 211.92),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Backside Skateboards"
+	},
+	["vespucci-whitewidow"] = {
+	coords = vector4(-1085.48, -1282.29, 5.16, 205.63),
+	LabelDistrict = "La Puerta",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "White Widow"
+	},
+	["vespucci-canals1"] = {
+	coords = vector4(-1006.14, -1105.28, 1.67, 124.74),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Prosperity St",
+	LabelDetail = "No. 1"
+	},
+	["vespucci-canals2"] = {
+	coords = vector4(-1062.04, -1038.56, 1.58, 306.54),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Prosperity St",
+	LabelDetail = "No. 2"
+	},
+	["vespucci-canals3"] = {
+	coords = vector4(-1184.04, -956.55, 3.46, 198.74),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Vespucci Blvd",
+	LabelDetail = "No. 3"
+	},
+	["vespucci-lspdcarpark"] = {
+	coords = vector4(-1041.48, -890.96, 4.63, 32.38),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "Vespucci Blvd",
+	LabelDetail = "LSPD Carpark"
+	},
+	["vespucci-celltowa"] = {
+	coords = vector4(-1047.82, -753.28, 18.69, 48.57),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Celltowa Tower"
+	},
+	["vespucci-lspd"] = {
+	coords = vector4(-1131.73, -821.64, 15.20, 23.18),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "LSPD"
+	},
+	["vespucci-burgershot"] = {
+	coords = vector4(-1194.46, -875.22, 13.10, 30.02),
+	LabelDistrict = "Vespucci-Canals",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Burger Shot"
+	},
+
+-- == LITTLE SEOUL == --
+
+	["seoul-koreanplaza"] = {
+	coords = vector4(-578.57, -1086.70, 21.84, 182.01),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Calais Ave",
+	LabelDetail = "Korean Plaza"
+	},
+	["seoul-yogarishima"] = {
+	coords = vector4(-513.12, -860.55, 29.58, 271.50),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Calais Ave",
+	LabelDetail = "Yogarishima"
+	},
+	["seoul-snrbuns"] = {
+	coords = vector4(-518.72, -670.81, 32.73, 1.93),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Snr. Buns"
+	},
+	["seoul-betsyoneil"] = {
+	coords = vector4(-554.80, -645.86, 32.75, 181.54),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Betsy O'Neil Pavillon"
+	},
+	["seoul-hitnrun"] = {
+	coords = vector4(-568.08, -670.76, 32.70, 358.82),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Hit 'n' Run"
+	},
+	["seoul-totalbankers"] = {
+	coords = vector4(-590.25, -671.01, 31.82, 1.75),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Total Bankers"
+	},
+	["seoul-lombank"] = {
+	coords = vector4(-691.97, -645.42, 30.69, 179.20),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Lombank"
+	},
+	["seoul-tacobomb"] = {
+	coords = vector4(-650.23, -686.65, 30.51, 268.86),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Taco Bomb Restaurant"
+	},
+	["seoul-beanmachine1"] = {
+	coords = vector4(-650.45, -798.60, 24.48, 270.06),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Bean Machine"
+	},
+	["seoul-airangplaza"] = {
+	coords = vector4(-696.28, -824.44, 23.34, 185.54),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Vespucci Blvd",
+	LabelDetail = "Airang Plaza"
+	},
+	["seoul-kayton"] = {
+	coords = vector4(-732.26, -821.06, 22.52, 137.43),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Ginger St",
+	LabelDetail = "Kayton Banking Group"
+	},
+	["seoul-247"] = {
+	coords = vector4(-695.46, -849.37, 23.22, 5.71),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Vespucci Blvd",
+	LabelDetail = "24/7"
+	},
+	["seoul-hwancafe"] = {
+	coords = vector4(-650.52, -903.57, 24.03, 273.11),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Hwan-Cafe / Garden"
+	},
+	["seoul-luckyplucker"] = {
+	coords = vector4(-598.26, -882.79, 25.09, 91.37),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Lucky Plucker"
+	},
+	["seoul-weazelnews"] = {
+	coords = vector4(-622.20, -940.82, 21.48, 41.50),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "Weazel News HQ"
+	},
+	["seoul-ammunation"] = {
+	coords = vector4(-663.62, -950.00, 21.03, 184.49),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Lindsay Circus",
+	LabelDetail = "AmmuNation"
+	},
+	["seoul-palominoave1"] = {
+	coords = vector4(-674.26, -1101.08, 14.07, 82.59),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "No. 1"
+	},
+	["seoul-bsc"] = {
+	coords = vector4(-732.44, -1108.69, 10.92, 28.50),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Palomino Ave",
+	LabelDetail = "BSC Maintenance"
+	},
+	["seoul-gingerst1"] = {
+	coords = vector4(-755.96, -1030.83, 12.60, 294.16),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Ginger St",
+	LabelDetail = "No. 1"
+	},
+	["seoul-deckerpark1"] = {
+	coords = vector4(-846.00, -933.00, 15.17, 95.77),
+	LabelDistrict = "Vespucci-Kanäle",
+	LabelStreet = "Decker St",
+	LabelDetail = "Decker Park Mini"
+	},
+	["seoul-pavilion"] = {
+	coords = vector4(-862.72, -847.90, 18.84, 300.12),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Decker St",
+	LabelDetail = "Korean Pavilion"
+	},
+	["seoul-deckerpark2"] = {
+	coords = vector4(-867.19, -716.97, 25.72, 268.61),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Decker St",
+	LabelDetail = "Decker Park, East"
+	},
+	["seoul-deckerpark3"] = {
+	coords = vector4(-981.39, -809.38, 15.53, 155.70),
+	LabelDistrict = "Vespucci-Kanäle",
+	LabelStreet = "Vespucci Blvd",
+	LabelDetail = "Decker Park, South"
+	},
+	["seoul-celltowabuilding"] = {
+	coords = vector4(-1008.67, -720.58, 20.46, 40.20),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Celltowa Building"
+	},
+	["seoul-wiwang"] = {
+	coords = vector4(-852.15, -694.25, 27.13, 92.24),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Decker St",
+	LabelDetail = "Wiwang Tower"
+	},
+	["seoul-beanmachine2"] = {
+	coords = vector4(-825.84, -639.17, 27.35, 153.83),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Bean Machine"
+	},
+	["seoul-church"] = {
+	coords = vector4(-789.04, -669.75, 28.60, 5.14),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "San Andreas Ave",
+	LabelDetail = "Church"
+	},
+	["seoul-valdez"] = {
+	coords = vector4(-732.73, -673.78, 29.75, 43.47),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Ginger St",
+	LabelDetail = "Valdez Theater"
+	},
+	["seoul-dreamtower"] = {
+	coords = vector4(-751.85, -769.17, 25.19, 268.90),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Ginger St",
+	LabelDetail = "Dream Tower"
+	},
+	["seoul-kaytontowers"] = {
+	coords = vector4(-800.28, -589.69, 29.79, 331.42),
+	LabelDistrict = "Little Seoul",
+	LabelStreet = "Del Perro Fwy",
+	LabelDetail = "Kayton Towers"
+	},
+	
+-- == DEL PERRO == --
+	
+	["perro-crownjewels"] = {
+	coords = vector4(-1305.43, -911.89, 10.86, 289.13),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Crown Jewels Motel"
+	},
+	["perro-acornsintooaks"] = {
+	coords = vector4(-1299.90, -859.92, 13.74, 125.04),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Acorns into Oaks"
+	},
+	["perro-giovannis"] = {
+	coords = vector4(-1336.39, -861.89, 16.28, 308.12),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Giovanni's Italian Restaurant"
+	},
+	["perro-hedera"] = {
+	coords = vector4(-1361.77, -798.07, 18.85, 142.85),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Hedera Restaurant"
+	},
+	["perro-haute"] = {
+	coords = vector4(-1413.90, -742.18, 22.92, 69.61),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Del Perro Fwy",
+	LabelDetail = "Haute Restaurant"
+	},
+	["perro-pescadorojo"] = {
+	coords = vector4(-1424.57, -721.78, 22.99, 186.59),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Pescado Rojo Restaurant"
+	},
+	["perro-astro"] = {
+	coords = vector4(-1344.72, -689.36, 25.11, 31.75),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Red Desert Ave",
+	LabelDetail = "Astro Theater"
+	},
+	["perro-grainoftruth"] = {
+	coords = vector4(-1361.40, -683.37, 24.78, 216.84),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Red Desert Ave",
+	LabelDetail = "The Grain of Truth"
+	},
+	["perro-pieroot"] = {
+	coords = vector4(-1640.38, -985.71, 12.54, 232.95),
+	LabelDistrict = "Del Perro Beach",
+	LabelStreet = "Red Desert Ave",
+	LabelDetail = "Del Perro Pier, Out of Towners"
+	},
+	["perro-pierbigpuffa"] = {
+	coords = vector4(-1611.67, -977.70, 12.53, 46.92),
+	LabelDistrict = "Del Perro Beach",
+	LabelStreet = "Red Desert Ave",
+	LabelDetail = "Del Perro Pier, The Big Puffa"
+	},
+	["perro-pier"] = {
+	coords = vector4(-1603.66, -1042.23, 12.58, 319.46),
+	LabelDistrict = "Del Perro Beach",
+	LabelStreet = "Red Desert Ave",
+	LabelDetail = "Del Perro Pier"
+	},
+	["perro-perreramotel"] = {
+	coords = vector4(-1458.42, -655.68, 29.02, 43.29),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Marathon Ave",
+	LabelDetail = "Perrera Beach Motel"
+	},
+	["perro-blufflombank"] = {
+	coords = vector4(-1596.99, -573.08, 34.49, 67.03),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Bluff Tower / Lombank"
+	},
+	["bahamamamas"] = {
+	coords = vector4(-1392.63, -584.64, 29.76, 34.63),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Marathon Ave",
+	LabelDetail = "Bahama Mamas Club"
+	},
+	["perro-promenade"] = {
+	coords = vector4(-1363.92, -565.35, 29.64, 34.11),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Marathon Ave",
+	LabelDetail = "Prosperity Promenade"
+	},
+	["perro-mazebank"] = {
+	coords = vector4(-1387.10, -529.30, 30.37, 123.91),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Prosperity St",
+	LabelDetail = "Maze Bank"
+	},
+	["perro-heights"] = {
+	coords = vector4(-1405.48, -563.18, 29.79, 208.78),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Marathon Ave",
+	LabelDetail = "Del Perro Heights"
+	},
+	["perro-crastenburg"] = {
+	coords = vector4(-1555.56, -518.58, 35.21, 58.17),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Boulevard Del Perro",
+	LabelDetail = "Crastenburg Hotel"
+	},
+	["perro-delperroplaza"] = {
+	coords = vector4(-1512.03, -444.17, 35.11, 36.90),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Boulevard Del Perro",
+	LabelDetail = "Del Perro Plaza"
+	},
+	["perro-upnatom"] = {
+	coords = vector4(-1547.15, -476.41, 34.98, 209.70),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Boulevard Del Perro",
+	LabelDetail = "Up-n-Atom Hamburgers"
+	},
+	["perro-banner"] = {
+	coords = vector4(-1665.12, -539.64, 34.68, 141.62),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Bay City Ave",
+	LabelDetail = "Banner Hotel"
+	},
+	["perro-voncrastenburg"] = {
+	coords = vector4(-1860.56, -349.04, 49.36, 134.46),
+	LabelDistrict = "Pacific Bluffs",
+	LabelStreet = "Playa Vista",
+	LabelDetail = "Von Crastenburg Hotel"
+	},
+	["perro-delperrofwy1"] = {
+	coords = vector4(-1810.87, -634.42, 10.48, 316.39),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "No. 1"
+	},
+	["perro-delperrofwy2"] = {
+	coords = vector4(-1776.26, -669.00, 9.90, 322.51),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "Del Perro Fwy",
+	LabelDetail = "No. 2"
+	},
+	["perro-beach"] = {
+	coords = vector4(-1646.57, -832.52, 9.50, 136.96),
+	LabelDistrict = "Del Perro Beach",
+	LabelStreet = "Magellan Ave",
+	LabelDetail = "Del Perro Beach"
+	},
+	["perro-cityhall"] = {
+	coords = vector4(-1276.75, -560.47, 29.71, 314.51),
+	LabelDistrict = "Del Perro",
+	LabelStreet = "South Rockford Dr",
+	LabelDetail = "City Hall"
+	},
+	
+-- == MORNINGWOOD & Richards Majestic== --
+	
+	["bluffs-hillvalley"] = {
+	coords = vector4(-1692.80, -290.12, 51.40, 143.36),
+	LabelDistrict = "Pacific Bluffs",
+	LabelStreet = "West Eclipse Blvd",
+	LabelDetail = "Hill Valley Church & Cemetery"
+	},
+	["morningwood-staceys"] = {
+	coords = vector4(-1488.53, -398.32, 38.15, 156.13),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "Prosperity St",
+	LabelDetail = "Stacey's Flower Emporium"
+	},
+	["morningwood-panache"] = {
+	coords = vector4(-1406.45, -385.31, 36.09, 266.19),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "Boulevard Del Perro",
+	LabelDetail = "Panache Cleaning"
+	},
+	["morningwood-lascuadrasdeli"] = {
+	coords = vector4(-1473.30, -308.06, 45.78, 312.45),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "North Rockford Dr",
+	LabelDetail = "Las Cuadras Deli"
+	},
+	["morningwood-enoteca"] = {
+	coords = vector4(-1574.51, -212.26, 54.56, 39.32),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "West Eclipse Blvd",
+	LabelDetail = "Enoteca Kerplonk"
+	},
+	["elginhouse"] = {
+	coords = vector4(-1281.80, -425.97, 34.21, 123.50),
+	LabelDistrict = "Richards Majestic",
+	LabelStreet = "Morningwood Blvd",
+	LabelDetail = "Elgin House"
+	},
+	["morningwoo-tivoli"] = {
+	coords = vector4(-1420.81, -194.34, 46.59, 350.52),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "Morningwood Blvd",
+	LabelDetail = "Tivoli Theater"
+	},
+	["morningwood-theater"] = {
+	coords = vector4(-1395.76, -172.71, 46.88, 89.22),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "Morningwood Blvd",
+	LabelDetail = "Weazel Morningwood Theater"
+	},
+	["morningwood-xyz"] = {
+	coords = vector4(-1431.29, -174.38, 46.95, 260.52),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "Morningwood Blvd",
+	LabelDetail = "XYZ-Store"
+	},
+	["morningwood-ponsonbys"] = {
+	coords = vector4(-1455.43, -228.81, 48.76, 47.71),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "Cougar Ave",
+	LabelDetail = "Ponsonbys"
+	},
+	["morningwood-vankhov"] = {
+	coords = vector4(-1382.76, -285.29, 42.71, 41.93),
+	LabelDistrict = "Morningwood",
+	LabelStreet = "Perth St",
+	LabelDetail = "Vankhov Jewelry"
+	},
+	["majestic-southgate"] = {
+	coords = vector4(-1207.04, -591.47, 26.81, 131.33),
+	LabelDistrict = "Richards Majestic",
+	LabelStreet = "North Rockford Dr",
+	LabelDetail = "Film Studios, South Gate"
+	},
+	["majestic-northgate"] = {
+	coords = vector4(-1061.62, -467.98, 36.11, 303.81),
+	LabelDistrict = "Richards Majestic",
+	LabelStreet = "Heritage Way",
+	LabelDetail = "Film Studios, North Gate"
+	},
+	
+-- == RICHMAN & GOLF CLUB == --
+	["kortz1"] = {
+	coords = vector4(-2305.53, 371.59, 174.12, 356.48),
+	LabelDistrict = "Pacific Bluffs",
+	LabelStreet = "Kortz Dr",
+	LabelDetail = "Kortz Center Entrance"
+	},
+	["kortz2"] = {
+	coords = vector4(-2294.85, 373.15, 174.12, 17.47),
+	LabelDistrict = "Pacific Bluffs",
+	LabelStreet = "Kortz Dr",
+	LabelDetail = "Kortz Center Entrance"
+	},
+	["kortz3"] = {
+	coords = vector4(-2282.44, 387.74, 174.12, 75.35),
+	LabelDistrict = "Pacific Bluffs",
+	LabelStreet = "Kortz Dr",
+	LabelDetail = "Kortz Center Entrance"
+	},
+	["kortz4"] = {
+	coords = vector4(-2316.84, 313.49, 169.12, 33.11),
+	LabelDistrict = "Pacific Bluffs",
+	LabelStreet = "Kortz Dr",
+	LabelDetail = "Kortz Center Parking"
+	},
+	["richman-nrockforddr1"] = {
+	coords = vector4(-1958.29, 391.75, 94.89, 92.04),
+	LabelDistrict = "Richman",
+	LabelStreet = "North Rockford Dr",
+	LabelDetail = "No. 1"
+	},
+	["richman-nrockforddr2"] = {
+	coords = vector4(-1965.08, 281.11, 86.65, 288.65),
+	LabelDistrict = "Richman",
+	LabelStreet = "North Rockford Dr",
+	LabelDetail = "No. 2"
+	},
+	["richman-nrockforddr3"] = {
+	coords = vector4(-1917.77, 222.22, 84.14, 119.72),
+	LabelDistrict = "Richman",
+	LabelStreet = "North Rockford Dr",
+	LabelDetail = "No. 3"
+	},
+	["richman-northrockfeorddr4"] = {
+	coords = vector4(-1895.24, 159.14, 81.06, 322.23),
+	LabelDistrict = "Richman",
+	LabelStreet = "North Rockford Dr",
+	LabelDetail = "No. 4"
+	},
+	["ulsa-sports1"] = {
+	coords = vector4(-1681.34, 122.67, 63.44, 217.95),
+	LabelDistrict = "Richman",
+	LabelStreet = "Picture Perfect Drive",
+	LabelDetail = "ULSA, Sports Complex"
+	},
+	["ulsa-campus1"] = {
+	coords = vector4(-1614.74, 188.39, 59.59, 211.68),
+	LabelDistrict = "Richman",
+	LabelStreet = "Picture Perfect Drive",
+	LabelDetail = "ULSA, Campus"
+	},
+	["ulsa-campus2"] = {
+	coords = vector4(-1570.90, 251.85, 58.46, 316.95),
+	LabelDistrict = "Richman",
+	LabelStreet = "Richman St",
+	LabelDetail = "ULSA, Campus"
+	},
+	["ulsa-sports2"] = {
+	coords = vector4(-1676.67, 281.37, 60.84, 17.52),
+	LabelDistrict = "Richman",
+	LabelStreet = "Richman St",
+	LabelDetail = "ULSA, Sports Complex, Gym"
+	},
+	["ulsa-sports3"] = {
+	coords = vector4(-1774.84, 220.28, 68.06, 43.04),
+	LabelDistrict = "Richman",
+	LabelStreet = "Richman St",
+	LabelDetail = "ULSA, Sports Complex, Ranks"
+	},
+	["richman-acedr1"] = {
+	coords = vector4(-1814.45, 345.21, 88.14, 35.33),
+	LabelDistrict = "Richman",
+	LabelStreet = "Ace Jones Dr",
+	LabelDetail = "No. 1024"
+	},
+	["richman-acedr2"] = {
+	coords = vector4(-1660.64, 408.56, 88.51, 95.30),
+	LabelDistrict = "Richman",
+	LabelStreet = "Ace Jones Dr",
+	LabelDetail = "No. 1027"
+	},
+	["richman-vinewoodmansionback"] = {
+	coords = vector4(-1796.68, 405.41, 112.79, 180.68),
+	LabelDistrict = "Richman",
+	LabelStreet = "Ace Jones Dr",
+	LabelDetail = "Mansion, Back Entrance"
+	},
+	["richman-americano1"] = {
+	coords = vector4(-1617.99, 60.38, 61.08, 331.51),
+	LabelDistrict = "Richman",
+	LabelStreet = "Americano Way",
+	LabelDetail = "No. 1"
+	},
+	["richman-americano2"] = {
+	coords = vector4(-1506.15, 45.62, 54.42, 9.29),
+	LabelDistrict = "Richman",
+	LabelStreet = "Americano Way",
+	LabelDetail = "No. 2"
+	},
+	["richman-samdr1"] = {
+	coords = vector4(-1474.49, -6.57, 53.95, 1.23),
+	LabelDistrict = "Richman",
+	LabelStreet = "Sam Austin Dr",
+	LabelDetail = "No. 1"
+	},
+	["richman-samdr2"] = {
+	coords = vector4(-1544.43, -33.23, 57.38, 280.34),
+	LabelDistrict = "Richman",
+	LabelStreet = "Sam Austin Dr",
+	LabelDetail = "No. 2"
+	},
+	["richman-samdr3"] = {
+	coords = vector4(-1533.14, -36.80, 56.93, 21.62),
+	LabelDistrict = "Richman",
+	LabelStreet = "Sam Austin Dr",
+	LabelDetail = "No. 3"
+	},
+	["richman-grainoftruth"] = {
+	coords = vector4(-1441.66, -102.57, 50.38, 30.56),
+	LabelDistrict = "Richman",
+	LabelStreet = "West Eclipse Blvd",
+	LabelDetail = "The Grain of Truth"
+	},
+	["golfclub"] = {
+	coords = vector4(-1366.81, 56.72, 53.52, 98.47),
+	LabelDistrict = "GWC und Golfclub",
+	LabelStreet = "West Eclipse Blvd",
+	LabelDetail = "GWC & Golfing Society"
+	},
+	["richman-hotel1"] = {
+	coords = vector4(-1284.15, 297.66, 64.46, 146.33),
+	LabelDistrict = "GWC und Golfclub",
+	LabelStreet = "West Eclipse Blvd",
+	LabelDetail = "The Richman Hotel"
+	},
+	["richman-hotel2"] = {
+	coords = vector4(-1317.72, 388.26, 69.09, 9.02),
+	LabelDistrict = "GWC und Golfclub",
+	LabelStreet = "Picture Perfect Drive",
+	LabelDetail = "The Richman Hotel, Backside"
+	},
+	["richman-weclipseblvd1"] = {
+	coords = vector4(-1105.18, 282.90, 63.63, 183.22),
+	LabelDistrict = "GWC und Golfclub",
+	LabelStreet = "West Eclipse Blvd",
+	LabelDetail = "No. 1"
+	},
+	["richman-ppdrive1"] = {
+	coords = vector4(-1130.52, 395.82, 70.26, 358.61),
+	LabelDistrict = "GWC und Golfclub",
+	LabelStreet = "Picture Perfect Drive",
+	LabelDetail = "No. 1"
 	},
 	
 }

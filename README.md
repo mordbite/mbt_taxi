@@ -17,7 +17,6 @@ Designed for immersive roleplay and scalable gameplay, including NPC passengers,
 - Intelligent tour refresh with fallback conditions
 - Edge case handling (timeouts, player death, disconnects)
 - Automatic cleanup of NPCs, blips, zones, and timers
-- Built-in debug and admin tools for testing and monitoring
 
 ---
 
@@ -110,7 +109,7 @@ All core settings can be found in `config.lua`, including:
 To use a custom way to access the functionalities, call the Events specified in the `qb-radialmenu`-Snippet above.
 
 To use a custom vehicle key system:
-- find the function `handleSpawnTaxi`
+- find the function `handleSpawnTaxi` in `/client/depot.lua`
 - Replace the `SetOwner` Trigger with your custom logic
 
 ---
@@ -119,12 +118,12 @@ To use a custom vehicle key system:
 
 **Taxameter**
 
-- Active Label zeigt manchmal den falschen state
-	- Nur Visuell: resposibility rewrite notwendig - in planung
+- Active Label shows wrong state
+	- Visual only: will be fixed during the upcoming responsibility rewrite.
 		
-- Distanz Tracking bleibt in seltenen Fällen bei 0 stecken
-	- Nur Visuell, Payout wird extern berechnet.
-	- Quick-Fix: Tour abbrechen, neu annehmen - sonst relog
+- Distance Tracking sometimes stuck at 0
+	- Visual only: payout is calculated serverside
+	- Quick-Fix: cancel ans reclaim tour - maybe relog if persistent
 
 ## Roadmap
 
