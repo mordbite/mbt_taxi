@@ -1,0 +1,48 @@
+local Translations = {
+	['vehicle-lost'] = "Fahrzeug verloren – Tour abgebrochen",
+	['pickup-area'] = "Abholbereich",
+	['dropoff-area'] = "Zielbereich",
+	['input-pickup'] = "Drücke ~INPUT_CONTEXT~, um Fahrgäste aufzunehmen",
+	['input-dropoff'] = "Drücke ~INPUT_CONTEXT~, um Fahrgäste abzusetzen",
+	['input-garage'] = "Drücke ~INPUT_CONTEXT~, um das Taxi einzuparken",
+	['vehicle-stationary'] = "Fahrzeug muss stehen, um Fahrgäste aufzunehmen",
+	['vehicle-too-damaged'] = "Fahrzeug zu stark beschädigt – Tour abgebrochen",
+	['too-many-accidents'] = "Zu viele Unfälle – Tour abgebrochen",
+	['accidents-left'] = "%d %s verbleiben, bevor die Tour abgebrochen wird",
+	['accident'] = "Unfall",
+	['accidents'] = "Unfälle",
+	['tour-started'] = "Tour gestartet",
+	['vehicle-needed'] = "Fahrzeug erforderlich",
+	['wrong-vehicle'] = "Fahrzeug nicht zugelassen",
+	['not-enough-seats'] = "Nicht genügend Sitzplätze",
+	['passengers-stuck'] = "Fahrgäste stecken fest – Teleport ins Fahrzeug",
+	['passengers-boarded'] = "Alle Fahrgäste an Bord – Tour beginnt",
+	['tour-concluded'] = "Tour abgeschlossen",
+	['new-tours'] = "Neue Touren verfügbar",
+	['denied-active-tour'] = "Keine manuelle Steuerung während aktiver Tour",
+	['cab-needed'] = "Taxi erforderlich für manuelle Steuerung",
+	['meter-started'] = "Taxameter gestartet",
+	['meter-stopped'] = "Taxameter gestoppt",
+	['meter-reset'] = "Taxameter zurückgesetzt",
+	['inactivity'] = "Tour wegen Inaktivität abgebrochen",
+	['tour-canceled'] = "Tour abgebrochen",
+	['tour-already-claimed'] = "Tour wurde bereits vergeben",
+	['tour-not-found'] = "Tour nicht gefunden",
+	['no-active-tour'] = "Keine aktive Tour",
+	['already-tour'] = "Tour bereits aktiv",
+	['no-bonus'] = "Zeitlimit überschritten – Bonus verloren",
+	['fines-active'] = "Starke Verspätung – Strafe aktiv",
+	['request-cab'] = "Taxi anfordern",
+	['wrong-job'] = "Nicht authorisiert",
+	['close'] = "Schließen",
+	['no-spawn'] = "Kein freier Parkplatz verfügbar",
+	['cab-returned'] = "Taxi erfolgreich zurückgegeben"
+}
+
+if GetConvar('qb_locale', 'en') == 'de' then
+	Lang = Locale:new({
+		phrases = Translations,
+		warnOnMissing = true,
+		fallbackLang = Lang,
+	})
+end

@@ -1,0 +1,124 @@
+<!--
+    mbt_taxi – Taximeter Interface
+    Licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+    Author: Mordbite – 2025
+-->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Taxi UI</title>
+
+	<!-- Libraries -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="ui.css" />
+</head>
+<body>
+	<div class="container">
+
+		<!-- Tour Auswahlmenü -->
+		<section class="tourmenu" style="display: none;">
+			<button class="close-button" onclick="closeAllUI()">X</button>
+			<h2>Verfügbare Touren</h2>
+			<div class="tourlist" id="tour-list">
+			</div>
+		</section>
+
+		<!-- Zusammenfassung nach Tourende -->
+		<section class="summary" style="display: none;">
+			<button class="close-button" onclick="closeAllUI()">X</button>
+			<h2 id="summary-title">Tour Summary</h2>
+			<br>
+			<div id="summary-content">
+				<br>
+				
+			</div>
+		</section>
+
+		<!-- Taxameter -->
+		<section class="taxameter">
+			<div class="meter-container">
+				<div class="panel">
+					<div class="display">
+						<div class="top-row">
+							<div class="timer-box">
+								<div class="lcd-slot">
+									<span id="urgency-timer-value" class="lcd-value">--:--</span>
+								</div>
+							</div>
+							<div class="column-separator"></div>
+							<div class="lcd-slot fromTo-lcd-box">
+								<span id="tourinfo-from-label" class="static-text from-to-label-box">FROM</span>
+								<div class="fromTo-lcd-wrapper">
+									<span id="tourinfo-from-district" class="lcd-value fromTo-lcd">--</span>
+									<span id="tourinfo-from-street" class="lcd-value fromTo-lcd">--</span>
+									<span id="tourinfo-from-detail" class="lcd-value fromTo-lcd">--</span>
+								</div>
+							</div>
+							<div class="column-separator"></div>
+							<div class="lcd-slot fromTo-lcd-box">
+								<span id="tourinfo-to-label" class="static-text from-to-label-box">TO</span>
+								<div class="fromTo-lcd-wrapper">
+									<span id="tourinfo-to-district" class="lcd-value fromTo-lcd">--</span>
+									<span id="tourinfo-to-street" class="lcd-value fromTo-lcd">--</span>
+									<span id="tourinfo-to-detail" class="lcd-value fromTo-lcd">--</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row-separator"></div>
+
+						<div class="middle-row">
+							<div class="fare-label-box">
+								<div id="fare-label" class="static-text">FARE</div>
+							</div>
+							<div class="fare-box">
+								<div class="lcd-slot">
+									<span id="fare-value" class="lcd-value">0.00</span>
+								</div>
+							</div>
+							<div id="fare-currency" class="static-text">$</div>
+						</div>
+
+						<div class="row-separator"></div>
+
+						<div class="bottom-row">
+							<div class="price-box">
+								<div class="static-text">PRICE/KM</div>
+								<div id="price-slot" class="lcd-slot">
+									<span id="price-value" class="lcd-value">0.00</span>
+								</div>
+								<div class="static-text">$</div>
+							</div>
+
+							<div class="active-label-box">
+								<div id="active-label" class="static-text"></div>
+							</div>
+
+							<div class="distance-box">
+								<div class="static-text">DISTANCE</div>
+								<div class="distance-align">
+									<div id="distance-slot" class="lcd-slot">
+										<span id="distance-value" class="lcd-value">0.00</span>
+									</div>
+									<div class="static-text">km</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="./ui.js"></script>
+</body>
+</html>
