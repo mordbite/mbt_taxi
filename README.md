@@ -37,7 +37,8 @@ Designed for immersive roleplay and scalable gameplay, including NPC passengers,
    ```ini
    ensure mbt_taxi
    ```
-3. `qb-radialmenu`: Relpace the `[taxi]` block in the `config.lua` with the following:
+3. Make sure to not have any other Taxi job running.
+4. `qb-radialmenu`: Relpace the `[taxi]` block in the `config.lua` with the following:
 ```lua
 ['taxi'] = {
 	{
