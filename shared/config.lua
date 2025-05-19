@@ -3018,6 +3018,1065 @@ Config.TourLocations = {
 	LabelDetail = "No. 2848"
 	},
 	
+-- == ALTA & HAWICK == --
+	
+	["alta-occupation1"] = {
+	coords = vector4(90.72, -290.21, 46.00, 157.29),
+	LabelDistrict = "Alta",
+	LabelStreet = "Occupation Ave",
+	LabelDetail = "No. 1"
+	},
+	["alta-cityhall"] = {
+	coords = vector4(246.35, -376.70, 43.95, 344.39),
+	LabelDistrict = "Alta",
+	LabelStreet = "Occupation Ave",
+	LabelDetail = "City Hall"
+	},
+	["alta-mexicanmarket"] = {
+	coords = vector4(370.81, -386.44, 45.72, 178.49),
+	LabelDistrict = "Alta",
+	LabelStreet = "Elgin Ave",
+	LabelDetail = "Mexican Market"
+	},
+	["alta-fleeca"] = {
+	coords = vector4(311.13, -267.69, 53.45, 334.54),
+	LabelDistrict = "Alta",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Fleeca Bank"
+	},
+	["alta-pinkcage"] = {
+	coords = vector4(327.24, -205.96, 53.60, 163.84),
+	LabelDistrict = "Alta",
+	LabelStreet = "Meteor St",
+	LabelDetail = "The Pink Cage Motel"
+	},
+	["alta-hawaiiansnow"] = {
+	coords = vector4(247.26, -209.68, 53.42, 116.20),
+	LabelDistrict = "Alta",
+	LabelStreet = "Power St",
+	LabelDetail = "Hawaiian Snow"
+	},
+	["alta-oevre"] = {
+	coords = vector4(211.26, -196.97, 53.60, 161.30),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Oevre Gallery"
+	},
+	["alta-hippyfeet"] = {
+	coords = vector4(147.03, -207.15, 53.86, 339.54),
+	LabelDistrict = "Alta",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Hippy Feet"
+	},
+	["alta-echorock"] = {
+	coords = vector4(90.98, -213.84, 54.01, 343.10),
+	LabelDistrict = "Alta",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Echorock Plaza"
+	},
+	["hawick-suburban"] = {
+	coords = vector4(129.72, -201.28, 54.02, 339.56),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Suburban"
+	},
+	["hawick-larss"] = {
+	coords = vector4(127.46, -167.94, 54.15, 166.05),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Larss & Elbö"
+	},
+	["hawick-inkinc"] = {
+	coords = vector4(39.74, -167.65, 54.84, 347.62),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "InkInc Tatoo Studio"
+	},
+	["hawick-mattress"] = {
+	coords = vector4(6.31, -154.69, 55.74, 337.36),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Mattress of Fact"
+	},
+	["hawick-freybaker"] = {
+	coords = vector4(49.09, -138.86, 54.76, 156.61),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Frey Baker"
+	},
+	["hawick-badger"] = {
+	coords = vector4(463.60, -136.54, 61.24, 163.97),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Spanish Ave",
+	LabelDetail = "Badger Tower"
+	},
+	["hawick-vinewoodgardens"] = {
+	coords = vector4(324.35, -85.61, 68.50, 160.89),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Spanish Ave",
+	LabelDetail = "The Vinewood Gardens Hotel"
+	},
+	["hawick-vinewoodplaza"] = {
+	coords = vector4(220.75, -51.54, 68.69, 157.67),
+	LabelDistrict = "Hawick",
+	LabelStreet = "Spanish Ave",
+	LabelDetail = "Vinewood Plaza"
+	},
+	["hawick-pops"] = {
+	coords = vector4(98.88, -7.25, 67.61, 158.16),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Spanish Ave",
+	LabelDetail = "Pop's Pills"
+	},
+	
+-- == DOWNTOWN VINEWOOD == --
+
+	["vinewood-gopostal"] = {
+	coords = vector4(62.05, 85.82, 77.95, 73.32),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Laguna Pl",
+	LabelDetail = "GO Postal"
+	},
+	["vinewood-altast0707"] = {
+	coords = vector4(170.51, 72.14, 82.61, 67.23),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Alta St",
+	LabelDetail = "No. 0707"
+	},
+	["vinewood-altast0602"] = {
+	coords = vector4(136.62, 36.86, 71.75, 260.92),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Alta St",
+	LabelDetail = "No. 0602"
+	},
+	["vinewood-callistoapt"] = {
+	coords = vector4(339.52, 49.63, 91.63, 61.84),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Power St",
+	LabelDetail = "Callisto Apartments"
+	},
+	["vinewood-lspd"] = {
+	coords = vector4(667.69, -6.36, 83.62, 242.35),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Elgin Ave",
+	LabelDetail = "Police Department"
+	},
+	["vinewood-pizzathis"] = {
+	coords = vector4(548.09, 86.71, 95.61, 162.89),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Pizza This Restaurant"
+	},
+	["vinewood-stargaze"] = {
+	coords = vector4(412.25, 105.03, 100.51, 345.68),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Stargaze"
+	},
+		["vinewood-doppler"] = {
+	coords = vector4(330.60, 166.00, 103.02, 160.57),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Doppler Cinema"
+	},
+	["vinewood-oriental"] = {
+	coords = vector4(297.86, 177.65, 103.69, 159.94),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "The Oriental"
+	},
+	["vinewood-whirligig"] = {
+	coords = vector4(301.25, 142.03, 103.40, 339.09),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Whirligig Theatre"
+	},
+	["vinewood-misst"] = {
+	coords = vector4(220.39, 171.42, 104.92, 340.10),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Miss-T Clothing"
+	},
+	["vinewood-pacificstandard"] = {
+	coords = vector4(231.16, 201.65, 104.92, 156.07),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Pacific Standard Bank"
+	},
+	["vinewood-blarneys"] = {
+	coords = vector4(125.40, 206.81, 106.66, 340.54),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Blarney's World of Awesome"
+	},
+	["vinewood-waxhaven"] = {
+	coords = vector4(113.83, 245.47, 107.35, 160.82),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Wax Haven"
+	},
+	["vinewood-wtf"] = {
+	coords = vector4(56.87, 231.80, 108.91, 346.05),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Vinewood Blvd",
+	LabelDetail = "Bishop's WTF?!"
+	},
+	["vinewood-upnatom"] = {
+	coords = vector4(60.69, 297.42, 110.30, 66.46),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Clinton Ave",
+	LabelDetail = "Up-n-Atom Burger"
+	},
+	["vinewood-pitchers"] = {
+	coords = vector4(222.98, 346.71, 105.06, 347.80),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Clinton Ave",
+	LabelDetail = "Pitchers Strip Club"
+	},
+	["vinewood-singletons"] = {
+	coords = vector4(228.75, 306.49, 105.05, 255.73),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Alta St",
+	LabelDetail = "Singleton's Bar"
+	},
+	["vinewood-butch"] = {
+	coords = vector4(326.68, 330.13, 104.83, 169.75),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Clinton Ave",
+	LabelDetail = "Butch Male Fitness"
+	},
+	["vinewood-247"] = {
+	coords = vector4(374.09, 318.71, 102.97, 161.60),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Clinton Ave",
+	LabelDetail = "24/7"
+	},
+	["vonewood-voncrastenburg"] = {
+	coords = vector4(436.30, 217.54, 102.69, 343.66),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "Power St",
+	LabelDetail = "Von Crastenburg Hotel"
+	},
+	["vinewood-cnt"] = {
+	coords = vector4(732.85, 196.26, 85.21, 161.13),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Clinton Ave",
+	LabelDetail = "CNT TV Studio"
+	},
+	["vinewood-substation"] = {
+	coords = vector4(747.15, 111.90, 78.64, 245.06),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Elgin Ave",
+	LabelDetail = "Substation"
+	},
+	
+-- == VINEWOOD HILLS == --
+
+	["vhills-bowl"] = {
+	coords = vector4(812.64, 559.64, 125.43, 313.49),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Fenwell Pl",
+	LabelDetail = "Vinewood Bowl"
+	},
+	["vhills-nconkerave2045"] = {
+	coords = vector4(371.32, 433.76, 143.98, 352.20),
+	LabelDistrict = "Vinewood Mitte",
+	LabelStreet = "North Conker Ave",
+	LabelDetail = "No. 2045"
+	},
+	["vhills-wildoatsdr3667"] = {
+	coords = vector4(172.44, 488.02, 142.22, 358.56),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Wild Oats Dr",
+	LabelDetail = "No. 3667"
+	},
+	["vhills-wildoatsdr3661"] = {
+	coords = vector4(-0.47, 469.41, 145.33, 330.70),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Wild Oats Dr",
+	LabelDetail = "No. 3661"
+	},
+	["vhills-wildoatsdr3655"] = {
+	coords = vector4(-186.83, 501.80, 134.21, 13.38),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Wild Oats Dr",
+	LabelDetail = "No. 3655"
+	},
+	["vhills-whispymound3671"] = {
+	coords = vector4(9.79, 549.12, 175.35, 39.39),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Whispymound Dr",
+	LabelDetail = "Nr. 3671"
+	},
+	["vhills-lakevdr1"] = {
+	coords = vector4(202.47, 779.70, 205.39, 22.19),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Lake Vinewood Dr",
+	LabelDetail = "No. 1342"
+	},
+	["vhills-lakevlookout"] = {
+	coords = vector4(-272.70, 725.53, 207.05, 310.57),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Lake Vinewood Dr",
+	LabelDetail = "Lake Vinewood Lookout"
+	},
+	["vhills-lakevestates"] = {
+	coords = vector4(-80.56, 905.70, 235.23, 126.39),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Lake Vinewood Est",
+	LabelDetail = "Lake Vinewood Estates"
+	},
+	["galileo-vinewoodsign"] = {
+	coords = vector4(854.33, 1277.65, 358.89, 46.64),
+	LabelDistrict = "Galileo-Park",
+	LabelStreet = "Mt Haan Dr",
+	LabelDetail = "Vinewood Sign"
+	},
+	["vhills-lafuente"] = {
+	coords = vector4(1374.86, 1146.98, 113.42, 90.05),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Senora Rd",
+	LabelDetail = "La Fuente Blanca"
+	},
+	["vhills-sisyphus"] = {
+	coords = vector4(226.82, 1171.38, 225.02, 287.06),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Baytree Canyon Rd",
+	LabelDetail = "Sisyphus Theater"
+	},
+	["vhills-kimbledr1"] = {
+	coords = vector4(-275.03, 605.52, 181.17, 350.71),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Kimble Hill Dr",
+	LabelDetail = "No. 3542"
+	},
+	["vhills-miltonrd1"] = {
+	coords = vector4(-482.77, 744.03, 163.44, 240.56),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Milton Rd",
+	LabelDetail = "No. 1023"
+	},
+	["vhills-normandydr1"] = {
+	coords = vector4(-747.04, 816.86, 212.90, 292.39),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Normandy Dr",
+	LabelDetail = "No. 2571"
+	},
+	["vhills-normandydr2"] = {
+	coords = vector4(-586.11, 751.04, 183.50, 250.26),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Normandy Dr",
+	LabelDetail = "No. 2544"
+	},
+	["vhills-hillcrest1"] = {
+	coords = vector4(-760.43, 666.07, 142.96, 294.91),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Hillcrest Ave",
+	LabelDetail = "No. 2670"
+	},
+	["vhills-hillcrest2"] = {
+	coords = vector4(-1019.79, 701.18, 161.65, 331.19),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Hillcrest Ave",
+	LabelDetail = "No. 2599"
+	},
+	["vhills-nsheldonave1"] = {
+	coords = vector4(-1015.82, 799.33, 170.38, 200.91),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "North Sheldon Ave",
+	LabelDetail = "No. 3452"
+	},
+	["vhills-nsheldonave2"] = {
+	coords = vector4(-903.32, 786.23, 185.40, 1.75),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "North Sheldon Ave",
+	LabelDetail = "No. 3652"
+	},
+	["vhills-nsheldondr3"] = {
+	coords = vector4(-1242.00, 663.26, 141.87, 216.86),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "North Sheldon Ave",
+	LabelDetail = "No. 1108"
+	},
+	["vhills-smomildondr1"] = {
+	coords = vector4(-1154.61, 560.23, 100.96, 189.20),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "South Mo Milton Dr",
+	LabelDetail = "No. 1243"
+	},
+	["vhills-ppdrive1"] = {
+	coords = vector4(-683.91, 495.93, 109.39, 200.98),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Picture Perfect Drive",
+	LabelDetail = "No. 4532"
+	},
+	["galileo-observatory"] = {
+	coords = vector4(-412.29, 1171.63, 325.33, 346.66),
+	LabelDistrict = "Galileo-Observatorium",
+	LabelStreet = "East Galileo Ave",
+	LabelDetail = "Galileo Observatory"
+	},
+	["vhills-parsons"] = {
+	coords = vector4(-1469.45, 880.95, 182.72, 283.69),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Marlowe Dr",
+	LabelDetail = "Parsons Rehab Center"
+	},
+	
+-- == CHUMASH, ZANCUDO & SURROUNDING AREA == --
+
+	["banham-retreat"] = {
+	coords = vector4(-2711.57, 1501.81, 105.94, 237.88),
+	LabelDistrict = "Banham Canyon",
+	LabelStreet = "Banham Canyon Dr",
+	LabelDetail = "Retreat"
+	},
+	["banham-inseno1"] = {
+	coords = vector4(-3098.89, 285.55, 8.63, 253.55),
+	LabelDistrict = "Banham Canyon",
+	LabelStreet = "Ineseno Road",
+	LabelDetail = "No. 243"
+	},
+	["banham-inseno2"] = {
+	coords = vector4(-3069.99, 393.34, 6.39, 254.72),
+	LabelDistrict = "Banham Canyon",
+	LabelStreet = "Ineseno Road",
+	LabelDetail = "No. 238"
+	},
+	["banham-momspie"] = {
+	coords = vector4(-3042.82, 615.23, 7.07, 292.17),
+	LabelDistrict = "Banham Canyon",
+	LabelStreet = "Ineseno Road",
+	LabelDetail = "Mom's Pie Diner"
+	},
+	["banham-fleeca"] = {
+	coords = vector4(-2971.83, 478.33, 14.93, 90.60),
+	LabelDistrict = "Banham Canyon",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Fleeca Bank"
+	},
+	["chumash-plaza"] = {
+	coords = vector4(-3152.51, 1055.69, 20.35, 334.72),
+	LabelDistrict = "Chumash",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Chumash Plaza"
+	},
+	["bluffs-countryclub"] = {
+	coords = vector4(-3021.28, 84.12, 11.19, 323.89),
+	LabelDistrict = "Pacific Bluffs",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Country Club"
+	},
+	["chumash-familypier"] = {
+	coords = vector4(-3235.67, 965.09, 12.58, 279.13),
+	LabelDistrict = "Chumash",
+	LabelStreet = "Barbareno Rd",
+	LabelDetail = "Historic Family Pier"
+	},
+	["chumash-barbareno1"] = {
+	coords = vector4(-3191.92, 1176.24, 8.89, 262.39),
+	LabelDistrict = "Chumash",
+	LabelStreet = "Barbareno Rd",
+	LabelDetail = "Nr. 32"
+	},
+	["tongva-westonmansion"] = {
+	coords = vector4(-2551.25, 1911.29, 168.57, 246.57),
+	LabelDistrict = "Tongva Hills",
+	LabelStreet = "Buen Vino Rd",
+	LabelDetail = "Devin Weston Mansion"
+	},
+	["tongva-vinery"] = {
+	coords = vector4(-1888.78, 2049.15, 140.50, 155.26),
+	LabelDistrict = "Tongva Hills",
+	LabelStreet = "Buen Vino Rd",
+	LabelDetail = "Marlowe Vineyard"
+	},
+	["zancudo-rons"] = {
+	coords = vector4(-2544.23, 2318.81, 32.73, 10.10),
+	LabelDistrict = "Lago Zancudo",
+	LabelStreet = "Route 68",
+	LabelDetail = "Ron Gas Station"
+	},
+	["nchumash-fortzancudofruits"] = {
+	coords = vector4(-2498.42, 3627.07, 13.53, 249.92),
+	LabelDistrict = "North Chumash",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Fort Zancudo Fruit Stand"
+	},
+	["nchumash-hookies"] = {
+	coords = vector4(-2198.42, 4271.17, 48.04, 143.89),
+	LabelDistrict = "North Chumash",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Hookie's Diner"
+	},
+	["zancudo-memorial"] = {
+	coords = vector4(-1280.81, 2543.78, 17.81, 179.73),
+	LabelDistrict = "Great Chaparral",
+	LabelStreet = "Fort Zancudo Approach Rd",
+	LabelDetail = "Fort Zancudo, War Memorials"
+	},
+	["tongva-whitewater"] = {
+	coords = vector4(-1504.81, 1495.82, 115.18, 230.68),
+	LabelDistrict = "Tongva Valley",
+	LabelStreet = "Tongva Dr",
+	LabelDetail = "White Water Activity Center"
+	},
+	["tongva-twohoots"] = {
+	coords = vector4(-1585.60, 2094.64, 68.88, 310.67),
+	LabelDistrict = "Tongva Hills",
+	LabelStreet = "Zancudo Rd",
+	LabelDetail = "Two Hoots Falls"
+	},
+	["chaparral-ammunation"] = {
+	coords = vector4(-1109.00, 2686.09, 18.32, 220.29),
+	LabelDistrict = "Great Chaparral",
+	LabelStreet = "Route 68",
+	LabelDetail = "AmmuNation"
+	},
+	["chaparral-church"] = {
+	coords = vector4(-325.75, 2748.43, 66.52, 236.33),
+	LabelDistrict = "Great Chaparral",
+	LabelStreet = "Zancudo Grande Valley",
+	LabelDetail = "Church"
+	},
+	["chaparral-farm1"] = {
+	coords = vector4(-282.66, 2556.41, 73.22, 128.33),
+	LabelDistrict = "Great Chaparral",
+	LabelStreet = "Zancudo Grande Valley",
+	LabelDetail = "Farm"
+	},
+	["chaparral-barn1"] = {
+	coords = vector4(-95.75, 2810.56, 52.82, 250.70),
+	LabelDistrict = "Great Chaparral",
+	LabelStreet = "Route 68",
+	LabelDetail = "Barn"
+	},
+	["chaparral-farm2"] = {
+	coords = vector4(-262.35, 2170.97, 131.02, 266.79),
+	LabelDistrict = "Great Chaparral",
+	LabelStreet = "Baytree Canyon Rd",
+	LabelDetail = "Farmhouse"
+	},
+	["chaparral-porkwhistle"] = {
+	coords = vector4(-123.97, 1933.94, 195.53, 98.20),
+	LabelDistrict = "Great Chaparral",
+	LabelStreet = "Baytree Canyon Rd",
+	LabelDetail = "Pork Whistle Farm"
+	},
+	["nchumash-beach"] = {
+	coords = vector4(-2414.70, 4235.39, 9.37, 217.59),
+	LabelDistrict = "North Chumash",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Beach"
+	},
+	
+-- == PALETO & CHILLIAD + SURROUNDINGS == --
+
+	["palcove-pier"] = {
+	coords = vector4(-1582.16, 5168.45, 19.09, 198.87),
+	LabelDistrict = "Paleto Cove",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Paleto Cove Pier"
+	},
+	["chiliad-rangersoffice"] = {
+	coords = vector4(-1492.66, 4974.46, 63.29, 82.93),
+	LabelDistrict = "Chiliad-Mountain-Naturschutzgebiet",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Raton Canyon, Rangers Office"
+	},
+	["chiliad-altruists"] = {
+	coords = vector4(-1037.14, 4922.26, 205.41, 228.57),
+	LabelDistrict = "Chiliad-Mountain-Naturschutzgebiet",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Altruists Camp"
+	},
+	["paleto-sawmill"] = {
+	coords = vector4(-566.83, 5379.53, 69.68, 276.67),
+	LabelDistrict = "Paleto Forest",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Sawmill"
+	},
+	["paleto-palasprings"] = {
+	coords = vector4(-767.40, 5583.44, 33.12, 102.51),
+	LabelDistrict = "Paleto Forest",
+	LabelStreet = "Procopio Promenade",
+	LabelDetail = "Pala Springs Aerial Tramway"
+	},
+	["paleto-bayviewlodge1"] = {
+	coords = vector4(-687.86, 5839.02, 16.58, 73.03),
+	LabelDistrict = "Paleto Forest",
+	LabelStreet = "Procopio Promenade",
+	LabelDetail = "Bayview Lodge Store"
+	},
+	["paleto-bayviewlodge2"] = {
+	coords = vector4(-710.75, 5788.09, 16.98, 155.13),
+	LabelDistrict = "Paleto Forest",
+	LabelStreet = "Procopio Promenade",
+	LabelDetail = "Bayview Lodge Diner"
+	},
+	["paleto-pier"] = {
+	coords = vector4(-208.26, 6559.59, 10.49, 222.06),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Procopio Promenade",
+	LabelDetail = "Old Pier"
+	},
+	["paleto-sheriff"] = {
+	coords = vector4(-425.67, 6027.81, 31.01, 296.46),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "Sherriffs Office"
+	},
+	["paleto-ammunation"] = {
+	coords = vector4(-319.07, 6071.92, 30.86, 226.23),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "AmmuNation"
+	},
+	["paleto-pixelpetes"] = {
+	coords = vector4(-248.60, 6212.56, 31.45, 135.78),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Duluoz Ave",
+	LabelDetail = "Pixel-Pete's Arcade"
+	},
+	["paleto-cluckingreception"] = {
+	coords = vector4(-151.06, 6207.40, 30.87, 52.04),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Clucking Bell Farms, Reception"
+	},
+	["paleto-dreamview"] = {
+	coords = vector4(-97.51, 6334.58, 31.01, 305.41),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Pyrite Ave",
+	LabelDetail = "Dream View Motel"
+	},
+	["paleto-cluckingloading"] = {
+	coords = vector4(-30.00, 6304.07, 30.89, 121.96),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Clucking Bell Farms, Loading Bay"
+	},
+	["paleto-wilson"] = {
+	coords = vector4(6.27, 6424.78, 30.93, 316.43),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Wilson Hatcheries"
+	},
+	["paleto-truckstop"] = {
+	coords = vector4(124.92, 6628.51, 31.42, 222.34),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "Truck Stop"
+	},
+	["paleto-willies"] = {
+	coords = vector4(-53.99, 6524.90, 31.01, 313.29),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "Willie's"
+	},
+	["paleto-bank"] = {
+	coords = vector4(-115.85, 6457.46, 30.98, 140.17),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "Blaine County Savings Bank"
+	},
+	["paleto-southseas"] = {
+	coords = vector4(-181.11, 6433.65, 31.43, 14.93),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Procopio Dr",
+	LabelDetail = "South Seas Apartments"
+	},
+	["paleto-mojitoinn"] = {
+	coords = vector4(-127.27, 6394.78, 30.98, 48.77),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "Mojito Inn"
+	},
+	["paleto-henhouse"] = {
+	coords = vector4(-293.79, 6253.08, 30.96, 228.08),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "The Hen House, Night Club"
+	},
+	["paleto-church"] = {
+	coords = vector4(-339.42, 6162.19, 31.00, 127.74),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "St. Brigid Baptist Church"
+	},
+	["paleto-fd"] = {
+	coords = vector4(-390.60, 6130.07, 31.00, 44.82),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Paleto Blvd",
+	LabelDetail = "Fire Department"
+	},
+	["paleto-donkeypunch"] = {
+	coords = vector4(419.91, 6539.82, 27.23, 251.32),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Donkey Punch Family Farm"
+	},
+	["procopio-beach"] = {
+	coords = vector4(1411.44, 6584.47, 13.07, 351.75),
+	LabelDistrict = "Procopio Beach",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Lookout"
+	},
+	["paleto-parcourse"] = {
+	coords = vector4(284.45, 6786.85, 15.22, 271.51),
+	LabelDistrict = "Paleto Bay",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Parcourse"
+	},
+	["anarchists"] = {
+	coords = vector4(1471.94, 6366.62, 23.19, 266.76),
+	LabelDistrict = "Mount Chiliad",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Anarchists Camp"
+	},
+	["chiliad-upnatom"] = {
+	coords = vector4(1585.38, 6449.40, 24.71, 152.28),
+	LabelDistrict = "Mount Chiliad",
+	LabelStreet = "Great Ocean Hwy",
+	LabelDetail = "Up-n-Atom Diner"
+	},
+	["chiliad-gasstation"] = {
+	coords = vector4(1739.32, 6402.72, 34.63, 157.46),
+	LabelDistrict = "Mount Chiliad",
+	LabelStreet = "Senora Fwy",
+	LabelDetail = "Gas Station & 24/7"
+	},
+	
+-- == EAST COAST == --
+
+	["gordo-lighthouse"] = {
+	coords = vector4(3328.06, 5144.31, 17.90, 38.60),
+	LabelDistrict = "Mount Gordo",
+	LabelStreet = "Catfish View",
+	LabelDetail = "El Gordo Lighthouse"
+	},
+	["catfishview"] = {
+	coords = vector4(3825.76, 4457.15, 2.64, 61.68),
+	LabelDistrict = "San-Chianski-Bergkette",
+	LabelStreet = "Catfish View",
+	LabelDetail = "Catfish View"
+	},
+	["chianski-railyard"] = {
+	coords = vector4(2932.81, 4594.24, 48.69, 235.97),
+	LabelDistrict = "San-Chianski-Bergkette",
+	LabelStreet = "Union Rd",
+	LabelDetail = "Railyard"
+	},
+	["chianski-silos"] = {
+	coords = vector4(2906.48, 4420.57, 48.02, 287.76),
+	LabelDistrict = "San-Chianski-Bergkette",
+	LabelStreet = "Chianski Passage",
+	LabelDetail = "H.J. Silos"
+	},
+	["humanelabs"] = {
+	coords = vector4(3407.81, 3759.68, 30.07, 226.13),
+	LabelDistrict = "Humane Labs and Research",
+	LabelStreet = "Chianski Passage",
+	LabelDetail = "Humane Labs and Research"
+	},
+	["chianski-youtool"] = {
+	coords = vector4(2754.71, 3470.13, 55.26, 247.18),
+	LabelDistrict = "San-Chianski-Bergkette",
+	LabelStreet = "Senora Fwy",
+	LabelDetail = "YouTool Hardware Store"
+	},
+	["davisquartz"] = {
+	coords = vector4(2565.77, 2675.74, 39.52, 105.61),
+	LabelDistrict = "Davis Quartz",
+	LabelStreet = "Senora Way",
+	LabelDetail = "Davis Quartz Quarry"
+	},
+	["windpark-rexs"] = {
+	coords = vector4(2555.83, 2614.25, 37.48, 12.46),
+	LabelDistrict = "Ron-Alternates-Windpark",
+	LabelStreet = "Senora Way",
+	LabelDetail = "Rex's Diner"
+	},
+	["windpark-trailerpark"] = {
+	coords = vector4(2394.06, 2528.36, 46.20, 159.93),
+	LabelDistrict = "Ron-Alternates-Windpark",
+	LabelStreet = "Senora Way",
+	LabelDetail = "Trailer Park"
+	},
+	["windpark-windpark"] = {
+	coords = vector4(2496.40, 1589.55, 32.24, 277.34),
+	LabelDistrict = "Ron-Alternates-Windpark",
+	LabelStreet = "Senora Way",
+	LabelDetail = "Ron Alternates Windpark"
+	},
+	["palmertaylorpower"] = {
+	coords = vector4(2683.25, 1616.61, 24.05, 271.19),
+	LabelDistrict = "Palmer-Taylor-Power-Station",
+	LabelStreet = "Senora Way",
+	LabelDetail = "Palmer Taylor Power Station"
+	},
+	["palomino-truckstop"] = {
+	coords = vector4(2561.54, 374.59, 108.14, 266.69),
+	LabelDistrict = "Tataviam-Mountainrange",
+	LabelStreet = "Palomino Fwy",
+	LabelDetail = "Palomino Point, Truck Stop"
+	},
+	["noose"] = {
+	coords = vector4(2544.11, -305.56, 92.51, 1.87),
+	LabelDistrict = "N.O.O.S.E",
+	LabelStreet = "Sustancia Rd",
+	LabelDetail = "National Office of Security Enforcement"
+	},
+	["palomino-beach"] = {
+	coords = vector4(2768.91, -718.04, 7.00, 349.91),
+	LabelDistrict = "Palomino-Highland",
+	LabelStreet = "Sustancia Rd",
+	LabelDetail = "Beach"
+	},
+	["landactdam"] = {
+	coords = vector4(1667.73, -66.73, 173.20, 259.96),
+	LabelDistrict = "Land-Act-Dam",
+	LabelStreet = "Mirror Park Blvd",
+	LabelDetail = "Land-Act Dam"
+	},
+	["landact-pumpingstation"] = {
+	coords = vector4(1532.16, 790.12, 76.97, 145.79),
+	LabelDistrict = "Vinewood Hills",
+	LabelStreet = "Los Santos Freeway",
+	LabelDetail = "Pumping Station"
+	},
+	
+-- == SANDY SHORES, GRAPESEED, GRAND SENORA DESERT AND SURROUNDINGS == --
+
+	["desert-barn1"] = {
+	coords = vector4(1511.53, 1727.46, 109.41, 90.70),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Los Santos Freeway",
+	LabelDetail = "Barn"
+	},
+	["brownfarm"] = {
+	coords = vector4(1526.59, 2219.34, 76.48, 100.75),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Senora Fwy",
+	LabelDetail = "Brown Farm"
+	},
+	["desert-scw"] = {
+	coords = vector4(1196.12, 1840.38, 78.19, 64.78),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Senora Rd",
+	LabelDetail = "Stoner Cement Works"
+	},
+	["desert-farm1"] = {
+	coords = vector4(869.84, 2179.97, 51.80, 327.38),
+	LabelDistrict = "Redwood-Lights-Rennstrecke",
+	LabelStreet = "Senora Rd",
+	LabelDetail = "Farm"
+	},
+	["redwoodlights"] = {
+	coords = vector4(885.59, 2382.90, 50.86, 262.58),
+	LabelDistrict = "Redwood-Lights-Racetrack",
+	LabelStreet = "Senora Rd",
+	LabelDetail = "Redwood-Lights Racetrack"
+	},
+	["rebelradio"] = {
+	coords = vector4(738.26, 2523.66, 72.71, 270.31),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Route 68",
+	LabelDetail = "Rebel Radio Station"
+	},
+	["desert-farm2"] = {
+	coords = vector4(168.42, 2240.28, 90.37, 326.45),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Baytree Canyon Rd",
+	LabelDetail = "Farm"
+	},
+	["harmony-easternmotel"] = {
+	coords = vector4(321.64, 2622.79, 44.00, 305.75),
+	LabelDistrict = "Harmony",
+	LabelStreet = "Route 68",
+	LabelDetail = "Eastern Motel"
+	},
+	["harmony-animalark"] = {
+	coords = vector4(562.79, 2736.68, 41.57, 191.02),
+	LabelDistrict = "Harmony",
+	LabelStreet = "Route 68",
+	LabelDetail = "Animal Ark Pet Store"
+	},
+	["desert-mototrmotel"] = {
+	coords = vector4(1141.45, 2663.41, 37.68, 88.34),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Route 68",
+	LabelDetail = "The Motor Motel"
+	},
+	["destert-lscustoms"] = {
+	coords = vector4(1212.33, 2671.80, 37.22, 17.68),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Route 68",
+	LabelDetail = "Los Santos Customs"
+	},
+	["desert-larrys"] = {
+	coords = vector4(1232.64, 2724.36, 37.52, 179.88),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Route 68",
+	LabelDetail = "Larry's Used Vehicles"
+	},
+	["bolingbroke"] = {
+	coords = vector4(1854.96, 2594.23, 45.18, 277.37),
+	LabelDistrict = "Bolingbroke-Penitentiary",
+	LabelStreet = "Route 68",
+	LabelDetail = "Bolingbroke Penitentiary"
+	},
+	["desert-satrelais"] = {
+	coords = vector4(2042.71, 2938.68, 47.28, 217.73),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Route 68",
+	LabelDetail = "Satellite Relay Station"
+	},
+	["desert-recycling"] = {
+	coords = vector4(2337.18, 3141.18, 47.71, 88.29),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Cat-Claw Ave",
+	LabelDetail = "Recycling Center"
+	},
+	["desert-nationalparking"] = {
+	coords = vector4(2050.26, 3445.73, 43.31, 345.02),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Nowhere Rd",
+	LabelDetail = "Senora Desert National Park"
+	},
+	["sandy-airfield"] = {
+	coords = vector4(1748.23, 3294.15, 40.62, 213.41),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Panorama Dr",
+	LabelDetail = "Airfield"
+	},
+	["desert-scw2"] = {
+	coords = vector4(254.50, 2841.53, 43.14, 101.83),
+	LabelDistrict = "Grand-Senora-Wüste",
+	LabelStreet = "Joshua Rd",
+	LabelDetail = "Stoner Cement Works"
+	},
+	["stabcity"] = {
+	coords = vector4(86.30, 3622.41, 39.34, 93.69),
+	LabelDistrict = "Stab City",
+	LabelStreet = "Calafia Rd",
+	LabelDetail = "Stab City"
+	},
+	["desert-liquor"] = {
+	coords = vector4(911.82, 3640.76, 31.93, 185.30),
+	LabelDistrict = "Alamosee",
+	LabelStreet = "Marina Dr",
+	LabelDetail = "Liquor Market"
+	},
+	["sandy-boathouse"] = {
+	coords = vector4(1534.70, 3774.53, 34.02, 214.90),
+	LabelDistrict = "Sandy Shores",
+	LabelStreet = "Marina Dr",
+	LabelDetail = "The Boat House"
+	},
+	["sandy-ammunation"] = {
+	coords = vector4(1697.58, 3744.77, 33.53, 225.29),
+	LabelDistrict = "Sandy Shores",
+	LabelStreet = "Algonquin Blvd",
+	LabelDetail = "AmmuNation"
+	},
+	["sandy-motel"] = {
+	coords = vector4(1493.92, 3575.74, 34.78, 25.06),
+	LabelDistrict = "Sandy Shores",
+	LabelStreet = "Algonquin Blvd",
+	LabelDetail = "Derelict Motel"
+	},
+	["sandy-fd"] = {
+	coords = vector4(1703.36, 3584.82, 35.00, 213.50),
+	LabelDistrict = "Sandy Shores",
+	LabelStreet = "Alhambra Dr",
+	LabelDetail = "Fire Department"
+	},
+	["sandy-hospital"] = {
+	coords = vector4(1842.37, 3669.62, 33.20, 206.86),
+	LabelDistrict = "Sandy Shores",
+	LabelStreet = "Alhambra Dr",
+	LabelDetail = "Medical Center"
+	},
+	["sandy-247"] = {
+	coords = vector4(1974.29, 3741.96, 31.72, 219.51),
+	LabelDistrict = "Sandy Shores",
+	LabelStreet = "Alhambra Dr",
+	LabelDetail = "24/7"
+	},
+	["sandy-aliens"] = {
+	coords = vector4(2459.19, 3805.81, 39.58, 44.27),
+	LabelDistrict = "Sandy Shores",
+	LabelStreet = "East Joshua Road",
+	LabelDetail = "Alien Community"
+	},
+	["maudes"] = {
+	coords = vector4(2716.42, 4145.74, 43.24, 86.76),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Senora Fwy",
+	LabelDetail = "Maude's Lair"
+	},
+	["grapeseed-farm1"] = {
+	coords = vector4(2554.95, 4690.83, 33.31, 123.31),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Grapeseed Ave",
+	LabelDetail = "Farm"
+	},
+	["grapeseed-oneils"] = {
+	coords = vector4(2451.97, 4954.21, 44.45, 209.14),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Union Rd",
+	LabelDetail = "O'Neil's Ranch"
+	},
+	["grapeseed-airfield"] = {
+	coords = vector4(2147.82, 4799.60, 40.58, 22.08),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Joad Ln",
+	LabelDetail = "McKenzie Airfield"
+	},
+	["grapeseed-lostfarm"] = {
+	coords = vector4(1960.71, 4634.58, 40.27, 30.14),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Seaview Rd",
+	LabelDetail = "The Lost Outpost"
+	},
+	["grapeseed-fruitmarket"] = {
+	coords = vector4(1780.95, 4581.97, 37.02, 175.94),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Seaview Rd",
+	LabelDetail = "Alamo Fruit Market"
+	},
+	["grapeseed-arcade"] = {
+	coords = vector4(1690.06, 4785.08, 41.43, 91.21),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Grapeseed Ave",
+	LabelDetail = "Wonderama Arcade"
+	},
+	["grapeseed-farmersmarket"] = {
+	coords = vector4(1673.03, 4887.41, 41.52, 87.94),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Grapeseed Main St",
+	LabelDetail = "Farmers Market"
+	},
+	["grapeseed-barn1"] = {
+	coords = vector4(1962.42, 5167.04, 47.02, 182.63),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Grapeseed Main St",
+	LabelDetail = "Barn"
+	},
+	["grapeseed-luckyjims"] = {
+	coords = vector4(2239.07, 5148.71, 55.89, 138.05),
+	LabelDistrict = "Grapeseed",
+	LabelStreet = "Union Rd",
+	LabelDetail = "Lucky Jim's Ranch"
+	},
+	["thefarm"] = {
+	coords = vector4(2203.49, 5605.02, 53.26, 264.42),
+	LabelDistrict = "Mount Chiliad",
+	LabelStreet = "Senora Fwy",
+	LabelDetail = "The Farm"
+	},
+	
 }
 
 Config.PedModels = {

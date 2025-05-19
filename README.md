@@ -139,6 +139,10 @@ Examples:
 - Hospitals and Airport Gates get a slightly higher chance to be chosen as tour location
 - Waste Management Facilities or remote Locations get a slightly lower chance
 
+**Misc**
+- Adding more fallbacks and handle more edgecases
+-
+
 ---
 ## Credits
 

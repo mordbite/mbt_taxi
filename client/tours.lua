@@ -1,3 +1,7 @@
+--	mbt_taxi
+--	License: CC BY-NC-SA 4.0 – https://creativecommons.org/licenses/by-nc-sa/4.0/
+--	Developed by Mordbite, 2025
+
 local QBCore = exports['qb-core']:GetCoreObject()
 local currentTours = {}
 local currentTour = nil

@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Mordbite'
 description 'AE Custom Taxijob'
-version '0.0.1'
+version '0.1'
 
 dependency 'qb-core'
 dependency 'PolyZone'
