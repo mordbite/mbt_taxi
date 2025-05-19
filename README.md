@@ -13,7 +13,7 @@ Designed for immersive roleplay and scalable gameplay, including NPC passengers,
 - 1–3 NPC passengers per tour (synchronized across all clients)
 - Tour timer with urgency-based bonus/penalty logic
 - Blip and zone handling for pickup and dropoff locations
-- Fully integrated taximeter with adjustable pricing
+- Fully integrated fare meter with adjustable pricing
 - Intelligent tour refresh with fallback conditions
 - Edge case handling (timeouts, player death, disconnects)
 - Automatic cleanup of NPCs, blips, zones, and timers
@@ -116,7 +116,7 @@ To use a custom vehicle key system:
 
 ## Known Bugs
 
-**Taxameter**
+**Fare Meter**
 
 - Active Label shows wrong state
 	- Visual only: will be fixed during the upcoming responsibility rewrite.

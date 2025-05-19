@@ -2316,6 +2316,12 @@ Config.TourLocations = {
 	LabelStreet = "Heritage Way",
 	LabelDetail = "Film Studios, North Gate"
 	},
+	["majestic-kayton"] = {
+	coords = vector4(-1065.21, -437.96, 36.16, 120.50),
+	LabelDistrict = "Richards Majestic",
+	LabelStreet = "Heritage Way",
+	LabelDetail = "Kayton Tower"
+	},
 	
 -- == RICHMAN & GOLF CLUB == --
 	["kortz1"] = {
@@ -2479,6 +2485,537 @@ Config.TourLocations = {
 	LabelDistrict = "GWC und Golfclub",
 	LabelStreet = "Picture Perfect Drive",
 	LabelDetail = "No. 1"
+	},
+	
+-- == ROCKFORD HILLS == --
+
+	["rockford-tenniscourts"] = {
+	coords = vector4(-1329.98, -119.18, 48.68, 282.02),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Tennis Courts"
+	},
+	["rockford-voncrastenburg"] = {
+	coords = vector4(-1227.35, -178.58, 38.69, 138.06),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Von Crastenburg Hotel, Lobby"
+	},
+	["rockford-voncrastenburg2"] = {
+	coords = vector4(-1209.78, -133.29, 40.58, 332.36),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Von Crastenburg Hotel, Backside"
+	},
+	["rockford-lifeinvader"] = {
+	coords = vector4(-1078.31, -263.47, 37.31, 207.43),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "South Boulevard Del Perro",
+	LabelDetail = "Life Invader Building"
+	},
+	["rockford-archipelago"] = {
+	coords = vector4(-1096.20, -320.98, 37.34, 356.66),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "South Boulevard Del Perro",
+	LabelDetail = "The Archipelago Hotel"
+	},
+	["rockford-pdm"] = {
+	coords = vector4(-1279.37, -355.32, 36.15, 68.27),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Morningwood Blvd",
+	LabelDetail = "Premium Deluxe Motorsport"
+	},
+	["rockford-jonnytung"] = {
+	coords = vector4(-936.61, -214.65, 37.55, 80.38),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Jonny Tung Gallery"
+	},
+	["rockford-maracas"] = {
+	coords = vector4(-795.95, -132.72, 37.52, 22.12),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "South Boulevard Del Perro",
+	LabelDetail = "Maracas"
+	},
+	["rockford-croqahoop"] = {
+	coords = vector4(-725.04, -95.51, 37.59, 30.13),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "South Boulevard Del Perro",
+	LabelDetail = "Croq-A-Hoop"
+	},
+	["rockford-library1"] = {
+	coords = vector4(-582.05, -76.03, 41.45, 337.77),
+	LabelDistrict = "Burton",
+	LabelStreet = "South Boulevard Del Perro",
+	LabelDetail = "City of LS Public Library, Back"
+	},
+	["rockford-lspd"] = {
+	coords = vector4(-555.53, -141.23, 37.96, 202.53),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Eastbourne Way",
+	LabelDetail = "Police Department"
+	},
+	["rockford-library2"] = {
+	coords = vector4(-623.54, -165.50, 37.29, 151.08),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Rockford Dr",
+	LabelDetail = "City of LS Public Library, Front"
+	},
+	["rockford-epsilon"] = {
+	coords = vector4(-696.83, 43.83, 42.87, 221.14),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Rockford Dr",
+	LabelDetail = "Epsilon Foundation HQ"
+	},
+	["rockford-church"] = {
+	coords = vector4(-761.41, -33.88, 37.35, 210.35),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Boulevard Del Perro",
+	LabelDetail = "Church"
+	},
+	["rockford-gateway"] = {
+	coords = vector4(-853.91, -85.89, 37.35, 207.46),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Boulevard Del Perro",
+	LabelDetail = "Gateway Sign"
+	},
+	["rockford-mwtdr1"] = {
+	coords = vector4(-932.37, -11.21, 42.95, 125.68),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Mad Wayne Thunder Dr",
+	LabelDetail = "No. 1"
+	},
+	["rockford-mwtdr2"] = {
+	coords = vector4(-1054.22, 186.91, 59.64, 107.27),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Steele Way",
+	LabelDetail = "No. 2"
+	},
+	["rockford-cottagepark"] = {
+	coords = vector4(-951.74, 305.87, 70.40, 295.95),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dunstable Dr",
+	LabelDetail = "Cottage Park"
+	},
+	["rockford-eclipsetowers"] = {
+	coords = vector4(-772.78, 296.55, 85.24, 184.88),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "South Mo Milton Dr",
+	LabelDetail = "Eclipse Towers"
+	},
+	["rockfort-smomiltondr1"] = {
+	coords = vector4(-849.11, 303.48, 85.65, 309.62),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "South Mo Milton Dr",
+	LabelDetail = "No. 1"
+	},
+	["rockford-ppdrive1"] = {
+	coords = vector4(-987.34, 412.34, 74.04, 207.42),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Picture Perfect Drive",
+	LabelDetail = "No. 4"
+	},
+	["rockford-mwtdr3"] = {
+	coords = vector4(-1085.66, 339.77, 66.45, 270.12),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Mad Wayne Thunder Dr",
+	LabelDetail = "No. 3"
+	},
+	["rockford-steeleway1"] = {
+	coords = vector4(-1042.89, 205.18, 62.10, 209.48),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Steele Way",
+	LabelDetail = "No. 1"
+	},
+	["rockford-steeleway3"] = {
+	coords = vector4(-934.72, 121.76, 56.30, 44.66),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Steele Way",
+	LabelDetail = " No. 3"
+	},
+	["rockfort-desantamanor"] = {
+	coords = vector4(-855.05, 164.33, 65.81, 90.56),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Portola Dr",
+	LabelDetail = "DeSanta Manor"
+	},
+	["rockford-portoladr1"] = {
+	coords = vector4(-854.54, 100.82, 51.99, 96.92),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Portola Dr",
+	LabelDetail = "No. 1"
+	},
+	["rockford-caesarsplace1"] = {
+	coords = vector4(-903.56, 18.76, 45.77, 291.27),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Caesars Place",
+	LabelDetail = "No. 1"
+	},
+	["rockford-portoladr2"] = {
+	coords = vector4(-819.72, -27.03, 38.04, 305.43),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Portola Dr",
+	LabelDetail = "No. 2"
+	},
+	["rockford-akanrecords"] = {
+	coords = vector4(-1033.76, -257.41, 37.26, 25.82),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "South Boulevard Del Perro",
+	LabelDetail = "Akan Records"
+	},
+	["rockford-kaytontower"] = {
+	coords = vector4(-1041.64, -391.38, 37.33, 31.44),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Marathon Ave",
+	LabelDetail = "Bank Tower"
+	},
+	["rockford-rmtower"] = {
+	coords = vector4(-965.53, -396.50, 37.35, 116.26),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Movie Star Way",
+	LabelDetail = "Richards Majestic Tower"
+	},
+	["rockford-weazelplaza1"] = {
+	coords = vector4(-927.88, -461.15, 36.78, 117.79),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Movie Star Way",
+	LabelDetail = "Weazel Plaza, Street"
+	},
+	["rockford-weazelplaza2"] = {
+	coords = vector4(-870.95, -430.10, 36.16, 293.01),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Heritage Way",
+	LabelDetail = "Weazel Plaza"
+	},
+	["rockford-leopolds"] = {
+	coords = vector4(-688.41, -376.40, 33.74, 340.51),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Leopolds"
+	},
+	["rockford-didiersachs"] = {
+	coords = vector4(-839.75, -366.47, 38.56, 204.97),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Heritage Way",
+	LabelDetail = "Didiersachs"
+	},
+	["rockford-morsmutual"] = {
+	coords = vector4(-842.34, -280.34, 38.84, 148.57),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Mors Mutual Insurance"
+	},
+	["rockford-chebs"] = {
+	coords = vector4(-731.48, -327.38, 35.47, 161.84),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Chebs Eaterie"
+	},
+	["rockford-perseus"] = {
+	coords = vector4(-656.03, -348.45, 34.16, 225.68),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Perseus"
+	},
+	["rockford-sessantanove"] = {
+	coords = vector4(-695.59, -269.47, 35.95, 306.03),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Portola Dr",
+	LabelDetail = "Sessanta Nove"
+	},
+	["rockford-portolaplaza"] = {
+	coords = vector4(-676.25, -218.73, 36.62, 33.37),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Eastbourne Way",
+	LabelDetail = "Little Portola Plaza"
+	},
+	["rockford-dorset"] = {
+	coords = vector4(-569.27, -386.69, 34.55, 359.36),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Rockford Dorset"
+	},
+	["rockford-weazeldorset"] = {
+	coords = vector4(-480.92, -390.76, 33.64, 356.19),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Weazel Dorset"
+	},
+	["rockford-hospital1"] = {
+	coords = vector4(-449.69, -340.89, 34.02, 80.77),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Carcer Way",
+	LabelDetail = "Mt Zonah Medical Center"
+	},
+	["rockford-hospital2"] = {
+	coords = vector4(-496.55, -336.62, 34.02, 260.22),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Carcer Way",
+	LabelDetail = "Mt Zonah Medical Center"
+	},
+	["rockford-hospital3"] = {
+	coords = vector4(-396.42, -371.14, 31.55, 172.33),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Harper Unit, Psych Ward"
+	},
+	["rockford-pillpharm"] = {
+	coords = vector4(-394.98, -401.66, 31.32, 358.64),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Pill-Pharm"
+	},
+	["rockford-augury"] = {
+	coords = vector4(-290.36, -414.81, 29.60, 349.33),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Dorset Dr",
+	LabelDetail = "Augury Insurance"
+	},
+	["rockford-plaza1"] = {
+	coords = vector4(-255.73, -320.58, 29.55, 95.59),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "San Vitus Blvd",
+	LabelDetail = "Rockford Plaza, South"
+	},
+	["rockford-pendulus"] = {
+	coords = vector4(-553.51, -321.51, 34.68, 301.09),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Rockford Dr",
+	LabelDetail = "Pendulus Clockworks"
+	},
+	["rockford-enema"] = {
+	coords = vector4(-654.78, -146.98, 37.35, 296.91),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Rockford Dr",
+	LabelDetail = "Enema"
+	},
+	["rockford-ponsonbys"] = {
+	coords = vector4(-717.77, -165.81, 36.50, 123.34),
+	LabelDistrict = "Rockford Hills",
+	LabelStreet = "Portola Dr",
+	LabelDetail = "Ponsonbys"
+	},
+	
+-- == BURTON == --
+
+	["burton-littleteapot"] = {
+	coords = vector4(-525.54, -29.63, 44.03, 86.12),
+	LabelDistrict = "Burton",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Little Teapot Cafe"
+	},
+	["burton-cokatoos"] = {
+	coords = vector4(-427.54, -32.97, 45.74, 284.87),
+	LabelDistrict = "Burton",
+	LabelStreet = "Eastbourne Way",
+	LabelDetail = "Cockatoos Night Club"
+	},
+	["burton-fleeca"] = {
+	coords = vector4(-345.34, -32.55, 47.07, 353.40),
+	LabelDistrict = "Burton",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Fleeca Bank"
+	},
+	["burton-eclipselodge"] = {
+	coords = vector4(-283.60, -21.32, 48.62, 168.63),
+	LabelDistrict = "Burton",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Ecplipse Lodge"
+	},
+	["burton-boutiquecall"] = {
+	coords = vector4(-290.82, -107.15, 46.03, 257.48),
+	LabelDistrict = "Burton",
+	LabelStreet = "San Vitus Blvd",
+	LabelDetail = "Boutique Call"
+	},
+	["burton-lscustoms"] = {
+	coords = vector4(-361.74, -149.13, 37.76, 24.96),
+	LabelDistrict = "Burton",
+	LabelStreet = "Carcer Way",
+	LabelDetail = "Los Santos Customs"
+	},
+	["burton-wenger"] = {
+	coords = vector4(-297.64, -274.10, 30.98, 279.96),
+	LabelDistrict = "Burton",
+	LabelStreet = "San Vitus Blvd",
+	LabelDetail = "Wenger Institute"
+	},
+	["burton-cityhall"] = {
+	coords = vector4(-510.32, -258.26, 35.09, 199.77),
+	LabelDistrict = "Burton",
+	LabelStreet = "Carcer Way",
+	LabelDetail = "City Hall"
+	},
+	["burton-chaps"] = {
+	coords = vector4(-472.76, -98.03, 38.41, 165.13),
+	LabelDistrict = "Burton",
+	LabelStreet = "Eastbourne Way",
+	LabelDetail = "Chaps"
+	},
+	["burton-lesbianco"] = {
+	coords = vector4(-153.66, -99.03, 54.14, 344.74),
+	LabelDistrict = "Burton",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Les Bianco"
+	},
+	["burton-yeti"] = {
+	coords = vector4(-133.45, -73.93, 54.99, 164.31),
+	LabelDistrict = "Burton",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "Yeti"
+	},
+	["burton-plaza"] = {
+	coords = vector4(-129.51, -246.27, 43.89, 255.62),
+	LabelDistrict = "Burton",
+	LabelStreet = "Las Lagunas Blvd",
+	LabelDetail = "Rockford Plaza"
+	},
+	["burton-ponsonbys"] = {
+	coords = vector4(-150.00, -306.27, 38.32, 251.17),
+	LabelDistrict = "Burton",
+	LabelStreet = "Las Lagunas Blvd",
+	LabelDetail = "Ponsonbys"
+	},
+	["burton-dogpark"] = {
+	coords = vector4(-149.97, -403.72, 33.24, 76.26),
+	LabelDistrict = "Burton",
+	LabelStreet = "Las Lagunas Blvd",
+	LabelDetail = "Dog Park"
+	},
+	
+-- == WEST VINEWOOD == --
+
+	["westvinewood-sagma"] = {
+	coords = vector4(-423.40, 15.74, 45.83, 180.91),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Hawick Ave",
+	LabelDetail = "SAGMA"
+	},
+	["westvinewood-eclipselodgeapt"] = {
+	coords = vector4(-273.19, 28.03, 54.27, 254.04),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "San Vitus Blvd",
+	LabelDetail = "Eclipse Lodge Apartments"
+	},
+	["westvinewood-spanishave1042"] = {
+	coords = vector4(-294.19, 116.37, 67.53, 359.67),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Spanish Ave",
+	LabelDetail = "No. 1042"
+	},
+	["westvinewood-eclipsemedical"] = {
+	coords = vector4(-675.12, 294.24, 81.49, 177.14),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "South Mo Milton Dr",
+	LabelDetail = "Eclipse Medical Tower"
+	},
+	["westvinewood-fullmoon"] = {
+	coords = vector4(-576.16, 271.31, 82.28, 179.72),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Full Moon Film Theater"
+	},
+	["westvinewood-tequilala"] = {
+	coords = vector4(-557.04, 269.74, 82.53, 175.59),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Tequi-La-La"
+	},
+	["westvinewood-generic"] = {
+	coords = vector4(-477.16, 220.34, 82.71, 353.39),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "The Generic Hotel"
+	},
+	["westvinewood-splitsides"] = {
+	coords = vector4(-420.03, 254.24, 82.70, 176.53),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Split Sides Comedy Club"
+	},
+	["westvinewood-hornbills"] = {
+	coords = vector4(-382.93, 227.61, 83.50, 358.22),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Hornbills Strip Club"
+	},
+	["westvinewood-lasttrain"] = {
+	coords = vector4(-370.20, 253.42, 83.71, 185.98),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Last Train Diner"
+	},
+	["westvinewood-pegasus"] = {
+	coords = vector4(-310.47, 222.78, 87.45, 9.29),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Pegasus Concierge"
+	},
+	["westvinewood-spitroasters"] = {
+	coords = vector4(-246.15, 275.31, 91.51, 173.34),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Spitroasters Meat House"
+	},
+	["westvinewood-hardcore"] = {
+	coords = vector4(-143.63, 241.04, 94.51, 6.26),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Eclipse Blvd",
+	LabelDetail = "Hardcore Comic Store"
+	},
+	["westvinewood-gentrymanor"] = {
+	coords = vector4(-84.05, 303.65, 106.50, 161.99),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Gentry Lane",
+	LabelDetail = "Gentry Manor"
+	},
+	["westvinewood-museum"] = {
+	coords = vector4(13.00, 171.93, 98.54, 74.90),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Las Lagunas Blvd",
+	LabelDetail = "Vinewood Museum"
+	},
+	["westvinewood-elgin"] = {
+	coords = vector4(-10.04, 166.25, 95.16, 244.85),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Las Lagunas Blvd",
+	LabelDetail = "Elgin House"
+	},
+	["westvinewood-didiondr1"] = {
+	coords = vector4(18.51, 372.40, 111.82, 142.07),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Didion Dr",
+	LabelDetail = "No. 1"
+	},
+	["westvinewood-didiondr3564"] = {
+	coords = vector4(-203.50, 411.69, 109.63, 16.54),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Didion Dr",
+	LabelDetail = "No. 3564"
+	},
+	["westvinewood-didiondr3554"] = {
+	coords = vector4(-403.19, 347.78, 107.85, 14.91),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Didion Dr",
+	LabelDetail = "No. 3554"
+	},
+	["wesvinewood-coxway3565"] = {
+	coords = vector4(-514.76, 427.85, 96.65, 141.46),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Cox Way",
+	LabelDetail = "No. 3565"
+	},
+	["westvinewood-coxway3569"] = {
+	coords = vector4(-383.14, 425.87, 109.64, 219.77),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Cox Way",
+	LabelDetail = "No. 3569"
+	},
+	["westvinewood-miltondr2848"] = {
+	coords = vector4(-603.19, 403.00, 100.65, 3.96),
+	LabelDistrict = "Vinewood West",
+	LabelStreet = "Milton Rd",
+	LabelDetail = "No. 2848"
 	},
 	
 }
