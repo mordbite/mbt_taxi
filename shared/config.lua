@@ -4,7 +4,7 @@ Config = {}
 -- DEBUG & BASE CONFIG
 -----------------------------------
 
-Config.Debug = true
+Config.Debug = false
 Config.jobRequired = 'taxi'
 
 -----------------------------------
@@ -13,7 +13,6 @@ Config.jobRequired = 'taxi'
 
 Config.AllowedVehicles = {
 	{ model = 'taxi', label = 'Standard Taxi' },
-	{ model = 'jugular', label = 'Engine Failure Test Car' }
 }
 
 Config.CabSpawns = {
