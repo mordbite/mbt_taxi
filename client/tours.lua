@@ -367,6 +367,7 @@ end
 -- @param tour table Tour object containing ID, pickup location, NPC count, and ownership.
 function handleSpawnTourPeds(tour)
 	local isDriver = tour.claimedBy == GetPlayerServerId(PlayerId())
+	if not isDriver then return end
 	local pedModels = Config.PedModels
 
 	RequestModelBatch(pedModels)

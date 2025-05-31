@@ -34,8 +34,8 @@ RegisterCommand("savetour", function()
 	TriggerEvent('chat:addMessage', { args = { "TourLocation:", text } })
 
 	SendNUIMessage({ action = "tempShow" })
-	Wait(50)  -- 1–2 Frames reichen meist
-	-- In Zwischenablage kopieren (per NUI)
+	Wait(50)
+	
 	SendNUIMessage({
 		action = "copyToClipboard",
 		text = text
