@@ -81,7 +81,7 @@ Config.Meter = {
 -- DAMAGE SYSTEM
 -----------------------------------
 
-Config.MinCabHealth = 200		-- 1 - 1000 (200 = 20%)
+Config.MinCabHealth = 900		-- 1 - 1000 (200 = 20%)
 Config.MaxCrashesAllowed = 5
 Config.DamageThreshold = 10.0  -- 1 - 10000 
 

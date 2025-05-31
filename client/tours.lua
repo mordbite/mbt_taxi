@@ -440,10 +440,8 @@ function handlePickupPassengers()
 		return
 	end
 
-	-- Präferierte Sitzreihenfolge: hinten rechts, hinten links, dann vorne rechts
 	local seatOrder = { 2, 1, 0 }
 
-	-- Finde alle freien Plätze
 	local availableSeats = {}
 		for _, seat in ipairs(seatOrder) do
 			if IsVehicleSeatFree(vehicle, seat) then
@@ -465,7 +463,7 @@ function handlePickupPassengers()
 
 	CreateThread(function()
 		local entered = 0
-		local timeout = GetGameTimer() + 20000 -- 20 Sekunden maximal
+		local timeout = GetGameTimer() + 20000
 		local pedsStuck = false
 
 		while entered < #peds and currentTour do
@@ -485,10 +483,8 @@ function handlePickupPassengers()
 		end
 
 		if pedsStuck then
-			-- Optional: Spieler benachrichtigen
 			Notify(Lang:t('passengers-stuck'), "primary")
 
-			-- Fallback: Alle Peds zwangsweise ins Fahrzeug setzen
 			for i, ped in ipairs(peds) do
 				local seat = availableSeats[i]
 				if seat then
@@ -497,7 +493,6 @@ function handlePickupPassengers()
 			end
 		end
 
-		-- Weiter wie gehabt
 		Notify(Lang:t('passengers-boarded'), "success")
 		startDrivePhase()
 		TriggerServerEvent("mbt_taxi:confirmPedEntry", currentTour.id)
