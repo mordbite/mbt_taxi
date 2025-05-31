@@ -4,6 +4,7 @@
 
 local QBCore = exports['qb-core']:GetCoreObject()
 local depotPed = nil
+local depotBlip = nil
 local isPlayerInsideZone = false
 local shouldShowHelp = false
 
@@ -14,15 +15,33 @@ local shouldShowHelp = false
 --- Spawns or reinitializes the static depot NPC used for taxi access.
 -- Removes any existing nearby non-player peds, then creates an interactive ped
 -- using qb-target with a depot interaction menu.
+
 function setupDepotPed()
 	if depotPed then return end
 
 	local depotPos = vector3(Config.DepotPed.x, Config.DepotPed.y, Config.DepotPed.z)
+
 	for _, ped in pairs(GetGamePool('CPed')) do
-		local pos = vector3(GetEntityCoords(ped))
-		if #(pos - depotPos) < 3.0 and not IsPedAPlayer(ped) then
+		local pos = GetEntityCoords(ped)
+		if #(vector3(pos.x, pos.y, pos.z) - depotPos) < 3.0 and not IsPedAPlayer(ped) then
 			DeleteEntity(ped)
 		end
+	end
+
+	if not depotBlip then
+		CreateThread(function()
+			depotBlip = AddBlipForCoord(depotPos)
+
+			SetBlipSprite(depotBlip, 198)
+			SetBlipDisplay(depotBlip, 4)
+			SetBlipScale(depotBlip, 1.0)
+			SetBlipColour(depotBlip, 5)
+			SetBlipAsShortRange(depotBlip, false)
+
+			BeginTextCommandSetBlipName("STRING")
+			AddTextComponentString("Fahrzeugdepot")
+			EndTextCommandSetBlipName(depotBlip)
+		end)
 	end
 
 	CreateThread(function()
