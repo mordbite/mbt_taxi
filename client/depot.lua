@@ -34,9 +34,9 @@ function setupDepotPed()
 
 			SetBlipSprite(depotBlip, 198)
 			SetBlipDisplay(depotBlip, 4)
-			SetBlipScale(depotBlip, 1.0)
+			SetBlipScale(depotBlip, 0.5)
 			SetBlipColour(depotBlip, 5)
-			SetBlipAsShortRange(depotBlip, false)
+			SetBlipAsShortRange(depotBlip, true)
 
 			BeginTextCommandSetBlipName("STRING")
 			AddTextComponentString("Fahrzeugdepot")
