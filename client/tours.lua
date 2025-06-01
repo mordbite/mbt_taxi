@@ -89,8 +89,8 @@ function startTour(tour)
 	local pickupCoords = Config.TourLocations[tour.from].coords
 	currentPickupBlip = AddBlipForCoord(pickupCoords.x, pickupCoords.y, pickupCoords.z)
 
-	SetBlipSprite(currentPickupBlip, 280) -- Taxi-Symbol (optional)
-	SetBlipColour(currentPickupBlip, 5)   -- Gelb
+	SetBlipSprite(currentPickupBlip, 280) 
+	SetBlipColour(currentPickupBlip, 5)
 	SetBlipScale(currentPickupBlip, 0.9)
 	SetBlipRoute(currentPickupBlip, true)
 	SetBlipRouteColour(currentPickupBlip, 5)
@@ -190,7 +190,6 @@ function endTourAtDestination()
 		currentTargetBlip = nil
 	end
 
-	-- NPCs aussteigen lassen
 	local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
 	local peds = activeTourPeds[currentTour.id] or {}
 	for _, ped in ipairs(peds) do
@@ -527,7 +526,7 @@ end
 -- Clears current tour state, blips, zones, UI panels, and active NPCs for the given tour.
 -- @param tour table Tour object containing the tour ID to clean up associated peds.
 function handleCleanupTour(tour)
-		if currentTour then
+	if currentTour then
 		currentTour = nil
 	end
 	if activeTourPeds[tour.id] then
@@ -630,7 +629,7 @@ function handleShowSummary(data)
 	SetNuiFocus(true, true)
 end
 
--- Instructs the Server to cancel the current Tour
+--- Instructs the Server to cancel the current Tour
 function handleCancelTour()
 	TriggerServerEvent("mbt_taxi:cancelTour")
 end
@@ -993,7 +992,7 @@ end)
 -- Resets the internal state once the player respawns or is revived.
 CreateThread(function()
 	while true do
-		Wait(1000) -- 1 Sekunde reicht
+		Wait(1000)
 		local ped = PlayerPedId()
 		local isDead = IsEntityDead(ped)
 
@@ -1019,9 +1018,7 @@ CreateThread(function()
 			local ped = PlayerPedId()
 			local veh = GetVehiclePedIsIn(ped, false)
 
-			-- Falls Spieler nicht im Fahrzeug, aber ein Fahrzeug gespeichert ist
 			if veh == 0 then
-				-- Suche gespeichertes Fahrzeug über Sitz oder vorherige Referenz
 				local lastVeh = GetVehiclePedIsTryingToEnter(ped)
 
 				if not DoesEntityExist(lastVeh) then
